@@ -1,7 +1,0 @@
-{
- "dates": [
-  "2026-10-16"
- ],
- "url_template": "https://jkane-29.github.io/opensofr/api/v1/history/{date}.json",
- "csv_template": "https://jkane-29.github.io/opensofr/api/v1/history/{date}.csv"
-}

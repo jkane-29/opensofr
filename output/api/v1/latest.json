@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-16",
- "generated_at": "2026-10-17T13:24:15Z",
+ "generated_at": "2026-10-17T13:24:51Z",
  "description": "Monthly SOFR forward curve fitted to CME SOFR futures, 10 years.",
  "units": "percent per annum, ACT/360",
  "fields": {
@@ -33,10 +33,10 @@
   "input_type": "snapshot"
  },
  "links": {
-  "csv": "https://jkane-29.github.io/opensofr/api/v1/latest.csv",
-  "xlsx": "https://jkane-29.github.io/opensofr/downloads/sofr-forward-curve.xlsx",
-  "inputs": "https://jkane-29.github.io/opensofr/api/v1/inputs/latest.json",
-  "history": "https://jkane-29.github.io/opensofr/api/v1/history/index.json"
+  "csv": "https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/latest.csv",
+  "xlsx": "https://raw.githubusercontent.com/jkane-29/opensofr/main/output/downloads/sofr-forward-curve.xlsx",
+  "inputs": "https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/inputs/latest.json",
+  "history": "https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/history/index.json"
  },
  "annual": [
   {

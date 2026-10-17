@@ -1,19 +1,17 @@
 # OpenSOFR
 
-A monthly SOFR forward curve covering the next ten years. It is refitted every US business morning to CME SOFR futures settlements and published as a static JSON/CSV API, an Excel workbook, and a web page on GitHub Pages.
-
-**Site:** https://jkane-29.github.io/opensofr/
+A monthly SOFR forward curve covering the next ten years. It is refitted every US business morning to CME SOFR futures settlements. A GitHub Action commits the results to `output/` in this repo, and they're served from there as a static JSON/CSV API and an Excel download.
 
 | What | URL |
 |---|---|
-| Latest curve (JSON) | https://jkane-29.github.io/opensofr/api/v1/latest.json |
-| Latest curve (CSV) | https://jkane-29.github.io/opensofr/api/v1/latest.csv |
-| Excel workbook | https://jkane-29.github.io/opensofr/downloads/sofr-forward-curve.xlsx |
-| Archive index | https://jkane-29.github.io/opensofr/api/v1/history/index.json |
+| Latest curve (JSON) | https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/latest.json |
+| Latest curve (CSV) | https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/latest.csv |
+| Excel workbook | https://raw.githubusercontent.com/jkane-29/opensofr/main/output/downloads/sofr-forward-curve.xlsx |
+| Archive index | https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/history/index.json |
 | Curve on a given date | `.../api/v1/history/YYYY-MM-DD.json` (or `.csv`) |
-| Fit inputs and residuals | https://jkane-29.github.io/opensofr/api/v1/inputs/latest.json |
+| Fit inputs and residuals | https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/inputs/latest.json |
 
-GitHub Pages sends `Access-Control-Allow-Origin: *`, so you can call these URLs directly from a browser, Python, Excel Power Query, or Google Sheets (`=IMPORTDATA(".../latest.csv")`).
+These are raw GitHub URLs on a public repo, so no authentication is needed. You can call them from Python, Excel Power Query, or Google Sheets (`=IMPORTDATA(".../latest.csv")`). Raw URLs are CDN-cached for up to about 5 minutes after each daily commit.
 
 ## Curve fields
 
@@ -58,11 +56,10 @@ To keep a workbook live, use *Data > From Web* with the CSV URL, then *Refresh A
 
 1. fetches CME settlements and NY Fed SOFR
 2. fits the curve
-3. writes `site/api`, `site/downloads` and `data/inputs/<date>.json`
+3. writes `output/` and `data/inputs/<date>.json`
 4. commits those files
-5. deploys `site/` to Pages
 
-A push to `main` rebuilds the site from the newest saved inputs without fetching anything.
+A push of code changes only runs the tests. To fetch and rebuild immediately, use *Actions > Update curve > Run workflow*.
 
 Safety rails:
 
@@ -74,8 +71,7 @@ Safety rails:
 ```bash
 pip install -r requirements.txt pytest
 python -m pytest -q tests
-python build.py --snapshot data/inputs/2026-10-16.json --base-url http://localhost:8000
-python -m http.server -d site 8000
+python build.py --snapshot data/inputs/2026-10-16.json   # offline rebuild into ./output
 ```
 
 To fetch live data instead, run `python build.py` with no arguments.

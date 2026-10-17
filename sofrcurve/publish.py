@@ -1,4 +1,4 @@
-"""Write the static API (JSON/CSV), history, and Excel download into the site directory."""
+"""Write the static API (JSON/CSV), history, and Excel download into the output directory."""
 from __future__ import annotations
 
 import csv
@@ -62,10 +62,10 @@ def curve_csv(curve: Curve) -> str:
     return buf.getvalue()
 
 
-def publish(curve: Curve, md: MarketData, site: Path, base_url: str) -> dict:
-    api = site / "api" / "v1"
+def publish(curve: Curve, md: MarketData, out: Path, base_url: str) -> dict:
+    api = out / "api" / "v1"
     hist = api / "history"
-    for d in (api / "inputs", hist, site / "downloads"):
+    for d in (api / "inputs", hist, out / "downloads"):
         d.mkdir(parents=True, exist_ok=True)
 
     doc = curve_json(curve, md, base_url)
@@ -91,5 +91,5 @@ def publish(curve: Curve, md: MarketData, site: Path, base_url: str) -> dict:
         "csv_template": f"{base_url}/api/v1/history/{{date}}.csv",
     }, indent=1))
 
-    build_workbook(curve, md.fixings, base_url, str(site / "downloads" / "sofr-forward-curve.xlsx"))
+    build_workbook(curve, md.fixings, base_url, str(out / "downloads" / "sofr-forward-curve.xlsx"))
     return doc

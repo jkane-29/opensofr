@@ -8,18 +8,17 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths-ignore: ["output/**", "data/**"]
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: curve
   cancel-in-progress: false
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -38,30 +37,12 @@ jobs:
         if: github.event_name != 'push'
         run: python build.py
 
-      - name: Rebuild site from latest saved inputs
-        if: github.event_name == 'push'
-        run: python build.py --snapshot "$(ls data/inputs/*.json | sort | tail -1)"
-
-      - name: Commit new data
+      - name: Commit new curve
         if: github.event_name != 'push'
         run: |
           git config user.name "opensofr-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data site/api site/downloads
+          git add data output
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -m "Curve $(jq -r .as_of site/api/v1/latest.json)"
+          git commit -m "Curve $(jq -r .as_of output/api/v1/latest.json)"
           git push
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
