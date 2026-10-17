@@ -136,11 +136,20 @@ def fetch_sofr(session, start: dt.date, end: dt.date) -> dict[dt.date, float]:
             for r in data.get("refRates", []) if r.get("type", "SOFR") == "SOFR"}
 
 
-def fetch_market_data(today: dt.date | None = None) -> MarketData:
-    import requests
+def _session():
+    """CME's CDN (Akamai) rejects plain python-requests from cloud IPs on TLS fingerprint.
+    curl_cffi impersonates Chrome's TLS handshake; fall back to requests if unavailable."""
+    try:
+        from curl_cffi import requests as creq
+        return creq.Session(impersonate="chrome")
+    except ImportError:
+        import requests
+        return requests.Session()
 
+
+def fetch_market_data(today: dt.date | None = None) -> MarketData:
     today = today or dt.date.today()
-    s = requests.Session()
+    s = _session()
     trade_date, quotes, meta = fetch_latest_cme(s, today)
     # Fixings back far enough to cover any in-progress 3M reference quarter.
     fixings = fetch_sofr(s, today - dt.timedelta(days=150), today)
