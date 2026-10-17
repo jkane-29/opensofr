@@ -39,7 +39,12 @@ def main(argv=None) -> int:
     if args.snapshot:
         md = MarketData.load(args.snapshot)
     else:
-        md = fetch_market_data()
+        try:
+            md = fetch_market_data()
+        except Exception as e:  # noqa: BLE001
+            # ::error:: surfaces the reason as an annotation on the GitHub Actions run.
+            print(f"::error::Market data fetch failed: {type(e).__name__}: {e}", file=sys.stderr)
+            return 1
         inputs_dir = ROOT / "data" / "inputs"
         inputs_dir.mkdir(parents=True, exist_ok=True)
         (inputs_dir / f"{md.trade_date.isoformat()}.json").write_text(json.dumps(md.to_json(), indent=1))
