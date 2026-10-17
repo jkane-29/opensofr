@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-16",
- "generated_at": "2026-10-17T13:24:51Z",
+ "generated_at": "2026-10-17T13:28:25Z",
  "description": "Monthly SOFR forward curve fitted to CME SOFR futures, 10 years.",
  "units": "percent per annum, ACT/360",
  "fields": {
@@ -30,7 +30,7 @@
  "source": {
   "futures": "CME Group daily settlements: SR3 (8462), SR1 (8463)",
   "fixings": "Federal Reserve Bank of New York Markets API",
-  "input_type": "snapshot"
+  "input_type": "live"
  },
  "links": {
   "csv": "https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/latest.csv",
