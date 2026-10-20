@@ -1,5 +1,6 @@
 {
  "dates": [
+  "2026-10-19",
   "2026-10-16"
  ],
  "url_template": "https://raw.githubusercontent.com/jkane-29/opensofr/main/output/api/v1/history/{date}.json",
