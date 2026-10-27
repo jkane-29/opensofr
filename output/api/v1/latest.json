@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-23",
- "generated_at": "2026-10-24T16:35:41Z",
+ "as_of": "2026-10-26",
+ "generated_at": "2026-10-27T18:42:10Z",
  "description": "Monthly SOFR forward curve fitted to CME SOFR futures, 10 years.",
  "units": "percent per annum, ACT/360",
  "fields": {
@@ -11,8 +11,8 @@
   "status": "fixed | partially_fixed | market | extrapolated"
  },
  "last_sofr_fixing": {
-  "date": "2026-10-22",
-  "rate": 3.9
+  "date": "2026-10-26",
+  "rate": 3.93
  },
  "model": {
   "hw_sigma": 0.009,
@@ -21,10 +21,10 @@
   "smooth_front": 0.003,
   "smooth_back": 0.2,
   "min_oi_serial": 1,
-  "instruments": 58,
-  "max_abs_residual_bp": 0.48,
-  "rms_residual_bp": 0.184,
-  "max_abs_residual_liquid_bp": 0.403,
+  "instruments": 60,
+  "max_abs_residual_bp": 0.697,
+  "rms_residual_bp": 0.193,
+  "max_abs_residual_liquid_bp": 0.697,
   "last_contract_end": "2036-06-18"
  },
  "source": {
@@ -42,57 +42,57 @@
   {
    "year": 2026,
    "months": 3,
-   "avg_forward_1m": 3.96769
+   "avg_forward_1m": 3.97384
   },
   {
    "year": 2027,
    "months": 12,
-   "avg_forward_1m": 4.44072
+   "avg_forward_1m": 4.47962
   },
   {
    "year": 2028,
    "months": 12,
-   "avg_forward_1m": 4.53576
+   "avg_forward_1m": 4.55213
   },
   {
    "year": 2029,
    "months": 12,
-   "avg_forward_1m": 4.45055
+   "avg_forward_1m": 4.45928
   },
   {
    "year": 2030,
    "months": 12,
-   "avg_forward_1m": 4.41998
+   "avg_forward_1m": 4.41985
   },
   {
    "year": 2031,
    "months": 12,
-   "avg_forward_1m": 4.46465
+   "avg_forward_1m": 4.45454
   },
   {
    "year": 2032,
    "months": 12,
-   "avg_forward_1m": 4.55144
+   "avg_forward_1m": 4.53683
   },
   {
    "year": 2033,
    "months": 12,
-   "avg_forward_1m": 4.62297
+   "avg_forward_1m": 4.60841
   },
   {
    "year": 2034,
    "months": 12,
-   "avg_forward_1m": 4.67216
+   "avg_forward_1m": 4.65764
   },
   {
    "year": 2035,
    "months": 12,
-   "avg_forward_1m": 4.72355
+   "avg_forward_1m": 4.70905
   },
   {
    "year": 2036,
    "months": 10,
-   "avg_forward_1m": 4.76521
+   "avg_forward_1m": 4.75074
   }
  ],
  "curve": [
@@ -101,9 +101,9 @@
    "reset_date": "2026-10-01",
    "end_date": "2026-11-01",
    "days": 31,
-   "forward_1m": 3.8972,
-   "avg_overnight": 3.8911,
-   "futures_implied": 3.89719,
+   "forward_1m": 3.89663,
+   "avg_overnight": 3.89053,
+   "futures_implied": 3.89662,
    "convexity_bp": 0.0,
    "status": "partially_fixed"
   },
@@ -112,9 +112,9 @@
    "reset_date": "2026-11-01",
    "end_date": "2026-12-01",
    "days": 30,
-   "forward_1m": 3.9333,
-   "avg_overnight": 3.92728,
-   "futures_implied": 3.93329,
+   "forward_1m": 3.93875,
+   "avg_overnight": 3.93271,
+   "futures_implied": 3.93873,
    "convexity_bp": 0.0,
    "status": "market"
   },
@@ -123,9 +123,9 @@
    "reset_date": "2026-12-01",
    "end_date": "2027-01-01",
    "days": 31,
-   "forward_1m": 4.07256,
-   "avg_overnight": 4.06589,
-   "futures_implied": 4.07264,
+   "forward_1m": 4.08613,
+   "avg_overnight": 4.07941,
+   "futures_implied": 4.0862,
    "convexity_bp": 0.01,
    "status": "market"
   },
@@ -134,10 +134,10 @@
    "reset_date": "2027-01-01",
    "end_date": "2027-02-01",
    "days": 31,
-   "forward_1m": 4.13822,
-   "avg_overnight": 4.13138,
-   "futures_implied": 4.13837,
-   "convexity_bp": 0.02,
+   "forward_1m": 4.15602,
+   "avg_overnight": 4.14912,
+   "futures_implied": 4.15615,
+   "convexity_bp": 0.01,
    "status": "market"
   },
   {
@@ -145,10 +145,10 @@
    "reset_date": "2027-02-01",
    "end_date": "2027-03-01",
    "days": 28,
-   "forward_1m": 4.19707,
-   "avg_overnight": 4.19074,
-   "futures_implied": 4.19743,
-   "convexity_bp": 0.04,
+   "forward_1m": 4.22094,
+   "avg_overnight": 4.21454,
+   "futures_implied": 4.22129,
+   "convexity_bp": 0.03,
    "status": "market"
   },
   {
@@ -156,9 +156,9 @@
    "reset_date": "2027-03-01",
    "end_date": "2027-04-01",
    "days": 31,
-   "forward_1m": 4.26272,
-   "avg_overnight": 4.25541,
-   "futures_implied": 4.2633,
+   "forward_1m": 4.29475,
+   "avg_overnight": 4.28733,
+   "futures_implied": 4.29531,
    "convexity_bp": 0.06,
    "status": "market"
   },
@@ -167,10 +167,10 @@
    "reset_date": "2027-04-01",
    "end_date": "2027-05-01",
    "days": 30,
-   "forward_1m": 4.34672,
-   "avg_overnight": 4.33933,
-   "futures_implied": 4.34758,
-   "convexity_bp": 0.09,
+   "forward_1m": 4.38907,
+   "avg_overnight": 4.38155,
+   "futures_implied": 4.3899,
+   "convexity_bp": 0.08,
    "status": "market"
   },
   {
@@ -178,9 +178,9 @@
    "reset_date": "2027-05-01",
    "end_date": "2027-06-01",
    "days": 31,
-   "forward_1m": 4.42254,
-   "avg_overnight": 4.41469,
-   "futures_implied": 4.42374,
+   "forward_1m": 4.47104,
+   "avg_overnight": 4.46302,
+   "futures_implied": 4.47221,
    "convexity_bp": 0.12,
    "status": "market"
   },
@@ -189,9 +189,9 @@
    "reset_date": "2027-06-01",
    "end_date": "2027-07-01",
    "days": 30,
-   "forward_1m": 4.49175,
-   "avg_overnight": 4.48393,
-   "futures_implied": 4.49349,
+   "forward_1m": 4.54124,
+   "avg_overnight": 4.53325,
+   "futures_implied": 4.54294,
    "convexity_bp": 0.17,
    "status": "market"
   },
@@ -200,9 +200,9 @@
    "reset_date": "2027-07-01",
    "end_date": "2027-08-01",
    "days": 31,
-   "forward_1m": 4.52529,
-   "avg_overnight": 4.51708,
-   "futures_implied": 4.52732,
+   "forward_1m": 4.57461,
+   "avg_overnight": 4.56621,
+   "futures_implied": 4.57659,
    "convexity_bp": 0.2,
    "status": "market"
   },
@@ -211,9 +211,9 @@
    "reset_date": "2027-08-01",
    "end_date": "2027-09-01",
    "days": 31,
-   "forward_1m": 4.55792,
-   "avg_overnight": 4.5495,
-   "futures_implied": 4.56055,
+   "forward_1m": 4.60157,
+   "avg_overnight": 4.593,
+   "futures_implied": 4.60416,
    "convexity_bp": 0.26,
    "status": "market"
   },
@@ -222,9 +222,9 @@
    "reset_date": "2027-09-01",
    "end_date": "2027-10-01",
    "days": 30,
-   "forward_1m": 4.57608,
-   "avg_overnight": 4.56795,
-   "futures_implied": 4.57923,
+   "forward_1m": 4.61755,
+   "avg_overnight": 4.60928,
+   "futures_implied": 4.62064,
    "convexity_bp": 0.31,
    "status": "market"
   },
@@ -233,10 +233,10 @@
    "reset_date": "2027-10-01",
    "end_date": "2027-11-01",
    "days": 31,
-   "forward_1m": 4.5945,
-   "avg_overnight": 4.58606,
-   "futures_implied": 4.59825,
-   "convexity_bp": 0.38,
+   "forward_1m": 4.63397,
+   "avg_overnight": 4.6254,
+   "futures_implied": 4.63767,
+   "convexity_bp": 0.37,
    "status": "market"
   },
   {
@@ -244,10 +244,10 @@
    "reset_date": "2027-11-01",
    "end_date": "2027-12-01",
    "days": 30,
-   "forward_1m": 4.59196,
-   "avg_overnight": 4.58376,
-   "futures_implied": 4.59638,
-   "convexity_bp": 0.44,
+   "forward_1m": 4.63263,
+   "avg_overnight": 4.62428,
+   "futures_implied": 4.63695,
+   "convexity_bp": 0.43,
    "status": "market"
   },
   {
@@ -255,10 +255,10 @@
    "reset_date": "2027-12-01",
    "end_date": "2028-01-01",
    "days": 31,
-   "forward_1m": 4.58384,
-   "avg_overnight": 4.57539,
-   "futures_implied": 4.58898,
-   "convexity_bp": 0.51,
+   "forward_1m": 4.62203,
+   "avg_overnight": 4.61344,
+   "futures_implied": 4.62727,
+   "convexity_bp": 0.52,
    "status": "market"
   },
   {
@@ -266,10 +266,10 @@
    "reset_date": "2028-01-01",
    "end_date": "2028-02-01",
    "days": 31,
-   "forward_1m": 4.58021,
-   "avg_overnight": 4.57179,
-   "futures_implied": 4.5858,
-   "convexity_bp": 0.56,
+   "forward_1m": 4.6135,
+   "avg_overnight": 4.60496,
+   "futures_implied": 4.61921,
+   "convexity_bp": 0.57,
    "status": "market"
   },
   {
@@ -277,10 +277,10 @@
    "reset_date": "2028-02-01",
    "end_date": "2028-03-01",
    "days": 29,
-   "forward_1m": 4.57603,
-   "avg_overnight": 4.56821,
-   "futures_implied": 4.58266,
-   "convexity_bp": 0.66,
+   "forward_1m": 4.58833,
+   "avg_overnight": 4.58046,
+   "futures_implied": 4.59483,
+   "convexity_bp": 0.65,
    "status": "market"
   },
   {
@@ -288,10 +288,10 @@
    "reset_date": "2028-03-01",
    "end_date": "2028-04-01",
    "days": 31,
-   "forward_1m": 4.55943,
-   "avg_overnight": 4.55102,
-   "futures_implied": 4.56684,
-   "convexity_bp": 0.74,
+   "forward_1m": 4.57922,
+   "avg_overnight": 4.57073,
+   "futures_implied": 4.5864,
+   "convexity_bp": 0.72,
    "status": "market"
   },
   {
@@ -299,10 +299,10 @@
    "reset_date": "2028-04-01",
    "end_date": "2028-05-01",
    "days": 30,
-   "forward_1m": 4.55113,
-   "avg_overnight": 4.54311,
-   "futures_implied": 4.55943,
-   "convexity_bp": 0.83,
+   "forward_1m": 4.57128,
+   "avg_overnight": 4.56319,
+   "futures_implied": 4.57944,
+   "convexity_bp": 0.82,
    "status": "market"
   },
   {
@@ -310,9 +310,9 @@
    "reset_date": "2028-05-01",
    "end_date": "2028-06-01",
    "days": 31,
-   "forward_1m": 4.54295,
-   "avg_overnight": 4.53465,
-   "futures_implied": 4.55229,
+   "forward_1m": 4.56277,
+   "avg_overnight": 4.5544,
+   "futures_implied": 4.57205,
    "convexity_bp": 0.93,
    "status": "market"
   },
@@ -321,10 +321,10 @@
    "reset_date": "2028-06-01",
    "end_date": "2028-07-01",
    "days": 30,
-   "forward_1m": 4.5355,
-   "avg_overnight": 4.52752,
-   "futures_implied": 4.54585,
-   "convexity_bp": 1.04,
+   "forward_1m": 4.55401,
+   "avg_overnight": 4.54596,
+   "futures_implied": 4.56431,
+   "convexity_bp": 1.03,
    "status": "market"
   },
   {
@@ -332,9 +332,9 @@
    "reset_date": "2028-07-01",
    "end_date": "2028-08-01",
    "days": 31,
-   "forward_1m": 4.52981,
-   "avg_overnight": 4.52154,
-   "futures_implied": 4.54115,
+   "forward_1m": 4.54641,
+   "avg_overnight": 4.53808,
+   "futures_implied": 4.55767,
    "convexity_bp": 1.13,
    "status": "market"
   },
@@ -343,10 +343,10 @@
    "reset_date": "2028-08-01",
    "end_date": "2028-09-01",
    "days": 31,
-   "forward_1m": 4.52352,
-   "avg_overnight": 4.51524,
-   "futures_implied": 4.53603,
-   "convexity_bp": 1.25,
+   "forward_1m": 4.53769,
+   "avg_overnight": 4.52935,
+   "futures_implied": 4.55009,
+   "convexity_bp": 1.24,
    "status": "market"
   },
   {
@@ -354,10 +354,10 @@
    "reset_date": "2028-09-01",
    "end_date": "2028-10-01",
    "days": 30,
-   "forward_1m": 4.51739,
-   "avg_overnight": 4.50949,
-   "futures_implied": 4.53104,
-   "convexity_bp": 1.37,
+   "forward_1m": 4.52943,
+   "avg_overnight": 4.52149,
+   "futures_implied": 4.54296,
+   "convexity_bp": 1.35,
    "status": "market"
   },
   {
@@ -365,10 +365,10 @@
    "reset_date": "2028-10-01",
    "end_date": "2028-11-01",
    "days": 31,
-   "forward_1m": 4.51179,
-   "avg_overnight": 4.5036,
-   "futures_implied": 4.5266,
-   "convexity_bp": 1.48,
+   "forward_1m": 4.52231,
+   "avg_overnight": 4.51408,
+   "futures_implied": 4.53699,
+   "convexity_bp": 1.47,
    "status": "market"
   },
   {
@@ -376,10 +376,10 @@
    "reset_date": "2028-11-01",
    "end_date": "2028-12-01",
    "days": 30,
-   "forward_1m": 4.50446,
-   "avg_overnight": 4.49655,
-   "futures_implied": 4.52055,
-   "convexity_bp": 1.61,
+   "forward_1m": 4.51412,
+   "avg_overnight": 4.50618,
+   "futures_implied": 4.53009,
+   "convexity_bp": 1.6,
    "status": "market"
   },
   {
@@ -387,10 +387,10 @@
    "reset_date": "2028-12-01",
    "end_date": "2029-01-01",
    "days": 31,
-   "forward_1m": 4.49695,
-   "avg_overnight": 4.48887,
-   "futures_implied": 4.51433,
-   "convexity_bp": 1.74,
+   "forward_1m": 4.5065,
+   "avg_overnight": 4.49839,
+   "futures_implied": 4.52376,
+   "convexity_bp": 1.73,
    "status": "market"
   },
   {
@@ -398,10 +398,10 @@
    "reset_date": "2029-01-01",
    "end_date": "2029-02-01",
    "days": 31,
-   "forward_1m": 4.489,
-   "avg_overnight": 4.4809,
-   "futures_implied": 4.50768,
-   "convexity_bp": 1.87,
+   "forward_1m": 4.4988,
+   "avg_overnight": 4.49066,
+   "futures_implied": 4.51735,
+   "convexity_bp": 1.85,
    "status": "market"
   },
   {
@@ -409,10 +409,10 @@
    "reset_date": "2029-02-01",
    "end_date": "2029-03-01",
    "days": 28,
-   "forward_1m": 4.47949,
-   "avg_overnight": 4.47228,
-   "futures_implied": 4.49956,
-   "convexity_bp": 2.01,
+   "forward_1m": 4.48949,
+   "avg_overnight": 4.48225,
+   "futures_implied": 4.50943,
+   "convexity_bp": 1.99,
    "status": "market"
   },
   {
@@ -420,10 +420,10 @@
    "reset_date": "2029-03-01",
    "end_date": "2029-04-01",
    "days": 31,
-   "forward_1m": 4.47209,
-   "avg_overnight": 4.46404,
-   "futures_implied": 4.49357,
-   "convexity_bp": 2.15,
+   "forward_1m": 4.48213,
+   "avg_overnight": 4.47405,
+   "futures_implied": 4.50347,
+   "convexity_bp": 2.13,
    "status": "market"
   },
   {
@@ -431,10 +431,10 @@
    "reset_date": "2029-04-01",
    "end_date": "2029-05-01",
    "days": 30,
-   "forward_1m": 4.46403,
-   "avg_overnight": 4.45625,
-   "futures_implied": 4.48692,
-   "convexity_bp": 2.29,
+   "forward_1m": 4.47412,
+   "avg_overnight": 4.4663,
+   "futures_implied": 4.49686,
+   "convexity_bp": 2.27,
    "status": "market"
   },
   {
@@ -442,10 +442,10 @@
    "reset_date": "2029-05-01",
    "end_date": "2029-06-01",
    "days": 31,
-   "forward_1m": 4.45611,
-   "avg_overnight": 4.44812,
-   "futures_implied": 4.48056,
-   "convexity_bp": 2.45,
+   "forward_1m": 4.46646,
+   "avg_overnight": 4.45843,
+   "futures_implied": 4.49076,
+   "convexity_bp": 2.43,
    "status": "market"
   },
   {
@@ -453,10 +453,10 @@
    "reset_date": "2029-06-01",
    "end_date": "2029-07-01",
    "days": 30,
-   "forward_1m": 4.44845,
-   "avg_overnight": 4.44075,
-   "futures_implied": 4.47448,
-   "convexity_bp": 2.6,
+   "forward_1m": 4.45914,
+   "avg_overnight": 4.45141,
+   "futures_implied": 4.48501,
+   "convexity_bp": 2.59,
    "status": "market"
   },
   {
@@ -464,10 +464,10 @@
    "reset_date": "2029-07-01",
    "end_date": "2029-08-01",
    "days": 31,
-   "forward_1m": 4.44263,
-   "avg_overnight": 4.43466,
-   "futures_implied": 4.47025,
-   "convexity_bp": 2.76,
+   "forward_1m": 4.45321,
+   "avg_overnight": 4.4452,
+   "futures_implied": 4.48066,
+   "convexity_bp": 2.75,
    "status": "market"
   },
   {
@@ -475,10 +475,10 @@
    "reset_date": "2029-08-01",
    "end_date": "2029-09-01",
    "days": 31,
-   "forward_1m": 4.43768,
-   "avg_overnight": 4.42971,
-   "futures_implied": 4.46701,
-   "convexity_bp": 2.93,
+   "forward_1m": 4.44717,
+   "avg_overnight": 4.43916,
+   "futures_implied": 4.47634,
+   "convexity_bp": 2.92,
    "status": "market"
   },
   {
@@ -486,10 +486,10 @@
    "reset_date": "2029-09-01",
    "end_date": "2029-10-01",
    "days": 30,
-   "forward_1m": 4.43428,
-   "avg_overnight": 4.42665,
-   "futures_implied": 4.46512,
-   "convexity_bp": 3.08,
+   "forward_1m": 4.44207,
+   "avg_overnight": 4.43442,
+   "futures_implied": 4.47275,
+   "convexity_bp": 3.07,
    "status": "market"
   },
   {
@@ -497,10 +497,10 @@
    "reset_date": "2029-10-01",
    "end_date": "2029-11-01",
    "days": 31,
-   "forward_1m": 4.43124,
-   "avg_overnight": 4.42334,
-   "futures_implied": 4.46398,
-   "convexity_bp": 3.27,
+   "forward_1m": 4.43706,
+   "avg_overnight": 4.42914,
+   "futures_implied": 4.46962,
+   "convexity_bp": 3.26,
    "status": "market"
   },
   {
@@ -508,10 +508,10 @@
    "reset_date": "2029-11-01",
    "end_date": "2029-12-01",
    "days": 30,
-   "forward_1m": 4.42748,
-   "avg_overnight": 4.41989,
-   "futures_implied": 4.46197,
-   "convexity_bp": 3.45,
+   "forward_1m": 4.43249,
+   "avg_overnight": 4.42488,
+   "futures_implied": 4.4668,
+   "convexity_bp": 3.43,
    "status": "market"
   },
   {
@@ -519,10 +519,10 @@
    "reset_date": "2029-12-01",
    "end_date": "2030-01-01",
    "days": 31,
-   "forward_1m": 4.4241,
-   "avg_overnight": 4.41621,
-   "futures_implied": 4.46029,
-   "convexity_bp": 3.62,
+   "forward_1m": 4.42927,
+   "avg_overnight": 4.42136,
+   "futures_implied": 4.46527,
+   "convexity_bp": 3.6,
    "status": "market"
   },
   {
@@ -530,10 +530,10 @@
    "reset_date": "2030-01-01",
    "end_date": "2030-02-01",
    "days": 31,
-   "forward_1m": 4.42047,
-   "avg_overnight": 4.41261,
-   "futures_implied": 4.45856,
-   "convexity_bp": 3.81,
+   "forward_1m": 4.42584,
+   "avg_overnight": 4.41796,
+   "futures_implied": 4.46374,
+   "convexity_bp": 3.79,
    "status": "market"
   },
   {
@@ -541,10 +541,10 @@
    "reset_date": "2030-02-01",
    "end_date": "2030-03-01",
    "days": 28,
-   "forward_1m": 4.41752,
-   "avg_overnight": 4.41051,
-   "futures_implied": 4.45754,
-   "convexity_bp": 4.0,
+   "forward_1m": 4.42213,
+   "avg_overnight": 4.41511,
+   "futures_implied": 4.46196,
+   "convexity_bp": 3.98,
    "status": "market"
   },
   {
@@ -552,10 +552,10 @@
    "reset_date": "2030-03-01",
    "end_date": "2030-04-01",
    "days": 31,
-   "forward_1m": 4.41786,
-   "avg_overnight": 4.41001,
-   "futures_implied": 4.45982,
-   "convexity_bp": 4.2,
+   "forward_1m": 4.42074,
+   "avg_overnight": 4.41288,
+   "futures_implied": 4.4625,
+   "convexity_bp": 4.18,
    "status": "market"
   },
   {
@@ -563,10 +563,10 @@
    "reset_date": "2030-04-01",
    "end_date": "2030-05-01",
    "days": 30,
-   "forward_1m": 4.41774,
-   "avg_overnight": 4.41017,
-   "futures_implied": 4.46165,
-   "convexity_bp": 4.39,
+   "forward_1m": 4.41875,
+   "avg_overnight": 4.41117,
+   "futures_implied": 4.46246,
+   "convexity_bp": 4.37,
    "status": "market"
   },
   {
@@ -574,10 +574,10 @@
    "reset_date": "2030-05-01",
    "end_date": "2030-06-01",
    "days": 31,
-   "forward_1m": 4.41775,
-   "avg_overnight": 4.4099,
-   "futures_implied": 4.46369,
-   "convexity_bp": 4.59,
+   "forward_1m": 4.41781,
+   "avg_overnight": 4.40996,
+   "futures_implied": 4.46355,
+   "convexity_bp": 4.57,
    "status": "market"
   },
   {
@@ -585,10 +585,10 @@
    "reset_date": "2030-06-01",
    "end_date": "2030-07-01",
    "days": 30,
-   "forward_1m": 4.41674,
-   "avg_overnight": 4.40915,
-   "futures_implied": 4.4646,
-   "convexity_bp": 4.79,
+   "forward_1m": 4.41689,
+   "avg_overnight": 4.4093,
+   "futures_implied": 4.46455,
+   "convexity_bp": 4.77,
    "status": "market"
   },
   {
@@ -596,10 +596,10 @@
    "reset_date": "2030-07-01",
    "end_date": "2030-08-01",
    "days": 31,
-   "forward_1m": 4.41657,
-   "avg_overnight": 4.40869,
-   "futures_implied": 4.46668,
-   "convexity_bp": 5.01,
+   "forward_1m": 4.41693,
+   "avg_overnight": 4.40905,
+   "futures_implied": 4.46683,
+   "convexity_bp": 4.99,
    "status": "market"
   },
   {
@@ -607,10 +607,10 @@
    "reset_date": "2030-08-01",
    "end_date": "2030-09-01",
    "days": 31,
-   "forward_1m": 4.41762,
-   "avg_overnight": 4.40973,
-   "futures_implied": 4.46987,
-   "convexity_bp": 5.22,
+   "forward_1m": 4.41723,
+   "avg_overnight": 4.40935,
+   "futures_implied": 4.46927,
+   "convexity_bp": 5.2,
    "status": "market"
   },
   {
@@ -618,10 +618,10 @@
    "reset_date": "2030-09-01",
    "end_date": "2030-10-01",
    "days": 30,
-   "forward_1m": 4.41977,
-   "avg_overnight": 4.41215,
-   "futures_implied": 4.47403,
-   "convexity_bp": 5.43,
+   "forward_1m": 4.41772,
+   "avg_overnight": 4.41011,
+   "futures_implied": 4.47177,
+   "convexity_bp": 5.4,
    "status": "market"
   },
   {
@@ -629,10 +629,10 @@
    "reset_date": "2030-10-01",
    "end_date": "2030-11-01",
    "days": 31,
-   "forward_1m": 4.42339,
-   "avg_overnight": 4.41552,
-   "futures_implied": 4.48003,
-   "convexity_bp": 5.66,
+   "forward_1m": 4.41939,
+   "avg_overnight": 4.41153,
+   "futures_implied": 4.4758,
+   "convexity_bp": 5.64,
    "status": "market"
   },
   {
@@ -640,10 +640,10 @@
    "reset_date": "2030-11-01",
    "end_date": "2030-12-01",
    "days": 30,
-   "forward_1m": 4.42587,
-   "avg_overnight": 4.41831,
-   "futures_implied": 4.48479,
-   "convexity_bp": 5.89,
+   "forward_1m": 4.421,
+   "avg_overnight": 4.41345,
+   "futures_implied": 4.47969,
+   "convexity_bp": 5.87,
    "status": "market"
   },
   {
@@ -651,10 +651,10 @@
    "reset_date": "2030-12-01",
    "end_date": "2031-01-01",
    "days": 31,
-   "forward_1m": 4.42848,
-   "avg_overnight": 4.42056,
-   "futures_implied": 4.48968,
-   "convexity_bp": 6.12,
+   "forward_1m": 4.42374,
+   "avg_overnight": 4.41583,
+   "futures_implied": 4.4847,
+   "convexity_bp": 6.1,
    "status": "market"
   },
   {
@@ -662,10 +662,10 @@
    "reset_date": "2031-01-01",
    "end_date": "2031-02-01",
    "days": 31,
-   "forward_1m": 4.43122,
-   "avg_overnight": 4.42332,
-   "futures_implied": 4.49478,
-   "convexity_bp": 6.36,
+   "forward_1m": 4.42664,
+   "avg_overnight": 4.41876,
+   "futures_implied": 4.48997,
+   "convexity_bp": 6.33,
    "status": "market"
   },
   {
@@ -673,10 +673,10 @@
    "reset_date": "2031-02-01",
    "end_date": "2031-03-01",
    "days": 28,
-   "forward_1m": 4.4344,
-   "avg_overnight": 4.4273,
-   "futures_implied": 4.50019,
-   "convexity_bp": 6.58,
+   "forward_1m": 4.42909,
+   "avg_overnight": 4.42201,
+   "futures_implied": 4.49465,
+   "convexity_bp": 6.56,
    "status": "market"
   },
   {
@@ -684,10 +684,10 @@
    "reset_date": "2031-03-01",
    "end_date": "2031-04-01",
    "days": 31,
-   "forward_1m": 4.44078,
-   "avg_overnight": 4.43281,
-   "futures_implied": 4.50896,
-   "convexity_bp": 6.82,
+   "forward_1m": 4.43377,
+   "avg_overnight": 4.42583,
+   "futures_implied": 4.50171,
+   "convexity_bp": 6.79,
    "status": "market"
   },
   {
@@ -695,10 +695,10 @@
    "reset_date": "2031-04-01",
    "end_date": "2031-05-01",
    "days": 30,
-   "forward_1m": 4.44696,
-   "avg_overnight": 4.43929,
-   "futures_implied": 4.51764,
-   "convexity_bp": 7.07,
+   "forward_1m": 4.43802,
+   "avg_overnight": 4.43038,
+   "futures_implied": 4.50845,
+   "convexity_bp": 7.04,
    "status": "market"
   },
   {
@@ -706,10 +706,10 @@
    "reset_date": "2031-05-01",
    "end_date": "2031-06-01",
    "days": 31,
-   "forward_1m": 4.45296,
-   "avg_overnight": 4.445,
-   "futures_implied": 4.52608,
-   "convexity_bp": 7.31,
+   "forward_1m": 4.44312,
+   "avg_overnight": 4.4352,
+   "futures_implied": 4.51599,
+   "convexity_bp": 7.29,
    "status": "market"
   },
   {
@@ -717,10 +717,10 @@
    "reset_date": "2031-06-01",
    "end_date": "2031-07-01",
    "days": 30,
-   "forward_1m": 4.45787,
-   "avg_overnight": 4.45013,
-   "futures_implied": 4.53341,
-   "convexity_bp": 7.55,
+   "forward_1m": 4.44815,
+   "avg_overnight": 4.44044,
+   "futures_implied": 4.52344,
+   "convexity_bp": 7.53,
    "status": "market"
   },
   {
@@ -728,10 +728,10 @@
    "reset_date": "2031-07-01",
    "end_date": "2031-08-01",
    "days": 31,
-   "forward_1m": 4.4642,
-   "avg_overnight": 4.45619,
-   "futures_implied": 4.5424,
-   "convexity_bp": 7.82,
+   "forward_1m": 4.45469,
+   "avg_overnight": 4.44671,
+   "futures_implied": 4.53264,
+   "convexity_bp": 7.79,
    "status": "market"
   },
   {
@@ -739,10 +739,10 @@
    "reset_date": "2031-08-01",
    "end_date": "2031-09-01",
    "days": 31,
-   "forward_1m": 4.47173,
-   "avg_overnight": 4.46368,
-   "futures_implied": 4.55254,
-   "convexity_bp": 8.08,
+   "forward_1m": 4.46151,
+   "avg_overnight": 4.4535,
+   "futures_implied": 4.54207,
+   "convexity_bp": 8.06,
    "status": "market"
   },
   {
@@ -750,10 +750,10 @@
    "reset_date": "2031-09-01",
    "end_date": "2031-10-01",
    "days": 30,
-   "forward_1m": 4.4803,
-   "avg_overnight": 4.47246,
-   "futures_implied": 4.56366,
-   "convexity_bp": 8.34,
+   "forward_1m": 4.46839,
+   "avg_overnight": 4.46059,
+   "futures_implied": 4.5515,
+   "convexity_bp": 8.31,
    "status": "market"
   },
   {
@@ -761,10 +761,10 @@
    "reset_date": "2031-10-01",
    "end_date": "2031-11-01",
    "days": 31,
-   "forward_1m": 4.49039,
-   "avg_overnight": 4.48228,
-   "futures_implied": 4.57653,
-   "convexity_bp": 8.61,
+   "forward_1m": 4.47648,
+   "avg_overnight": 4.46842,
+   "futures_implied": 4.56235,
+   "convexity_bp": 8.59,
    "status": "market"
   },
   {
@@ -772,10 +772,10 @@
    "reset_date": "2031-11-01",
    "end_date": "2031-12-01",
    "days": 30,
-   "forward_1m": 4.49825,
-   "avg_overnight": 4.4904,
-   "futures_implied": 4.5869,
-   "convexity_bp": 8.86,
+   "forward_1m": 4.48323,
+   "avg_overnight": 4.47543,
+   "futures_implied": 4.57161,
+   "convexity_bp": 8.84,
    "status": "market"
   },
   {
@@ -783,10 +783,10 @@
    "reset_date": "2031-12-01",
    "end_date": "2032-01-01",
    "days": 31,
-   "forward_1m": 4.50672,
-   "avg_overnight": 4.49851,
-   "futures_implied": 4.5983,
-   "convexity_bp": 9.16,
+   "forward_1m": 4.4914,
+   "avg_overnight": 4.48325,
+   "futures_implied": 4.58272,
+   "convexity_bp": 9.13,
    "status": "market"
   },
   {
@@ -794,10 +794,10 @@
    "reset_date": "2032-01-01",
    "end_date": "2032-02-01",
    "days": 31,
-   "forward_1m": 4.51326,
-   "avg_overnight": 4.50509,
-   "futures_implied": 4.60752,
-   "convexity_bp": 9.43,
+   "forward_1m": 4.49831,
+   "avg_overnight": 4.49019,
+   "futures_implied": 4.59229,
+   "convexity_bp": 9.4,
    "status": "market"
   },
   {
@@ -805,10 +805,10 @@
    "reset_date": "2032-02-01",
    "end_date": "2032-03-01",
    "days": 29,
-   "forward_1m": 4.51943,
-   "avg_overnight": 4.5118,
-   "futures_implied": 4.61644,
-   "convexity_bp": 9.7,
+   "forward_1m": 4.50486,
+   "avg_overnight": 4.49727,
+   "futures_implied": 4.60159,
+   "convexity_bp": 9.67,
    "status": "market"
   },
   {
@@ -816,10 +816,10 @@
    "reset_date": "2032-03-01",
    "end_date": "2032-04-01",
    "days": 31,
-   "forward_1m": 4.52722,
-   "avg_overnight": 4.51897,
-   "futures_implied": 4.62717,
-   "convexity_bp": 9.99,
+   "forward_1m": 4.51278,
+   "avg_overnight": 4.50459,
+   "futures_implied": 4.61245,
+   "convexity_bp": 9.97,
    "status": "market"
   },
   {
@@ -827,10 +827,10 @@
    "reset_date": "2032-04-01",
    "end_date": "2032-05-01",
    "days": 30,
-   "forward_1m": 4.53409,
-   "avg_overnight": 4.52606,
-   "futures_implied": 4.63687,
-   "convexity_bp": 10.28,
+   "forward_1m": 4.51958,
+   "avg_overnight": 4.5116,
+   "futures_implied": 4.62208,
+   "convexity_bp": 10.25,
    "status": "market"
   },
   {
@@ -838,10 +838,10 @@
    "reset_date": "2032-05-01",
    "end_date": "2032-06-01",
    "days": 31,
-   "forward_1m": 4.54091,
-   "avg_overnight": 4.53264,
-   "futures_implied": 4.64641,
-   "convexity_bp": 10.55,
+   "forward_1m": 4.52632,
+   "avg_overnight": 4.51809,
+   "futures_implied": 4.63153,
+   "convexity_bp": 10.52,
    "status": "market"
   },
   {
@@ -849,10 +849,10 @@
    "reset_date": "2032-06-01",
    "end_date": "2032-07-01",
    "days": 30,
-   "forward_1m": 4.5481,
-   "avg_overnight": 4.54008,
-   "futures_implied": 4.6567,
-   "convexity_bp": 10.86,
+   "forward_1m": 4.53347,
+   "avg_overnight": 4.5255,
+   "futures_implied": 4.64178,
+   "convexity_bp": 10.83,
    "status": "market"
   },
   {
@@ -860,10 +860,10 @@
    "reset_date": "2032-07-01",
    "end_date": "2032-08-01",
    "days": 31,
-   "forward_1m": 4.55551,
-   "avg_overnight": 4.54718,
-   "futures_implied": 4.66707,
-   "convexity_bp": 11.16,
+   "forward_1m": 4.54089,
+   "avg_overnight": 4.53262,
+   "futures_implied": 4.65217,
+   "convexity_bp": 11.13,
    "status": "market"
   },
   {
@@ -871,10 +871,10 @@
    "reset_date": "2032-08-01",
    "end_date": "2032-09-01",
    "days": 31,
-   "forward_1m": 4.56268,
-   "avg_overnight": 4.55425,
-   "futures_implied": 4.67714,
-   "convexity_bp": 11.45,
+   "forward_1m": 4.54809,
+   "avg_overnight": 4.53971,
+   "futures_implied": 4.66225,
+   "convexity_bp": 11.42,
    "status": "market"
   },
   {
@@ -882,10 +882,10 @@
    "reset_date": "2032-09-01",
    "end_date": "2032-10-01",
    "days": 30,
-   "forward_1m": 4.56985,
-   "avg_overnight": 4.56174,
-   "futures_implied": 4.68739,
-   "convexity_bp": 11.75,
+   "forward_1m": 4.55527,
+   "avg_overnight": 4.54722,
+   "futures_implied": 4.67252,
+   "convexity_bp": 11.73,
    "status": "market"
   },
   {
@@ -893,10 +893,10 @@
    "reset_date": "2032-10-01",
    "end_date": "2032-11-01",
    "days": 31,
-   "forward_1m": 4.57673,
-   "avg_overnight": 4.56836,
-   "futures_implied": 4.69735,
-   "convexity_bp": 12.06,
+   "forward_1m": 4.56215,
+   "avg_overnight": 4.55384,
+   "futures_implied": 4.68247,
+   "convexity_bp": 12.03,
    "status": "market"
   },
   {
@@ -904,10 +904,10 @@
    "reset_date": "2032-11-01",
    "end_date": "2032-12-01",
    "days": 30,
-   "forward_1m": 4.58213,
-   "avg_overnight": 4.57397,
-   "futures_implied": 4.70584,
-   "convexity_bp": 12.37,
+   "forward_1m": 4.56755,
+   "avg_overnight": 4.55944,
+   "futures_implied": 4.69096,
+   "convexity_bp": 12.34,
    "status": "market"
   },
   {
@@ -915,10 +915,10 @@
    "reset_date": "2032-12-01",
    "end_date": "2033-01-01",
    "days": 31,
-   "forward_1m": 4.58733,
-   "avg_overnight": 4.57887,
-   "futures_implied": 4.71421,
-   "convexity_bp": 12.69,
+   "forward_1m": 4.57275,
+   "avg_overnight": 4.56434,
+   "futures_implied": 4.69933,
+   "convexity_bp": 12.66,
    "status": "market"
   },
   {
@@ -926,10 +926,10 @@
    "reset_date": "2033-01-01",
    "end_date": "2033-02-01",
    "days": 31,
-   "forward_1m": 4.59217,
-   "avg_overnight": 4.58371,
-   "futures_implied": 4.72202,
-   "convexity_bp": 12.98,
+   "forward_1m": 4.5776,
+   "avg_overnight": 4.56919,
+   "futures_implied": 4.70713,
+   "convexity_bp": 12.95,
    "status": "market"
   },
   {
@@ -937,10 +937,10 @@
    "reset_date": "2033-02-01",
    "end_date": "2033-03-01",
    "days": 28,
-   "forward_1m": 4.5978,
-   "avg_overnight": 4.5902,
-   "futures_implied": 4.73097,
-   "convexity_bp": 13.32,
+   "forward_1m": 4.58323,
+   "avg_overnight": 4.57569,
+   "futures_implied": 4.71609,
+   "convexity_bp": 13.29,
    "status": "market"
   },
   {
@@ -948,10 +948,10 @@
    "reset_date": "2033-03-01",
    "end_date": "2033-04-01",
    "days": 31,
-   "forward_1m": 4.60576,
-   "avg_overnight": 4.59718,
-   "futures_implied": 4.74216,
-   "convexity_bp": 13.64,
+   "forward_1m": 4.59119,
+   "avg_overnight": 4.58266,
+   "futures_implied": 4.72727,
+   "convexity_bp": 13.61,
    "status": "market"
   },
   {
@@ -959,10 +959,10 @@
    "reset_date": "2033-04-01",
    "end_date": "2033-05-01",
    "days": 30,
-   "forward_1m": 4.61216,
-   "avg_overnight": 4.60392,
-   "futures_implied": 4.7517,
-   "convexity_bp": 13.95,
+   "forward_1m": 4.59759,
+   "avg_overnight": 4.58941,
+   "futures_implied": 4.73681,
+   "convexity_bp": 13.92,
    "status": "market"
   },
   {
@@ -970,10 +970,10 @@
    "reset_date": "2033-05-01",
    "end_date": "2033-06-01",
    "days": 31,
-   "forward_1m": 4.61781,
-   "avg_overnight": 4.60924,
-   "futures_implied": 4.76046,
-   "convexity_bp": 14.26,
+   "forward_1m": 4.60325,
+   "avg_overnight": 4.59473,
+   "futures_implied": 4.74558,
+   "convexity_bp": 14.23,
    "status": "market"
   },
   {
@@ -981,10 +981,10 @@
    "reset_date": "2033-06-01",
    "end_date": "2033-07-01",
    "days": 30,
-   "forward_1m": 4.62177,
-   "avg_overnight": 4.61349,
-   "futures_implied": 4.76773,
-   "convexity_bp": 14.6,
+   "forward_1m": 4.60723,
+   "avg_overnight": 4.59899,
+   "futures_implied": 4.75286,
+   "convexity_bp": 14.56,
    "status": "market"
   },
   {
@@ -992,10 +992,10 @@
    "reset_date": "2033-07-01",
    "end_date": "2033-08-01",
    "days": 31,
-   "forward_1m": 4.6254,
-   "avg_overnight": 4.61685,
-   "futures_implied": 4.77465,
-   "convexity_bp": 14.93,
+   "forward_1m": 4.61086,
+   "avg_overnight": 4.60236,
+   "futures_implied": 4.75978,
+   "convexity_bp": 14.89,
    "status": "market"
   },
   {
@@ -1003,10 +1003,10 @@
    "reset_date": "2033-08-01",
    "end_date": "2033-09-01",
    "days": 31,
-   "forward_1m": 4.62915,
-   "avg_overnight": 4.62047,
-   "futures_implied": 4.78177,
-   "convexity_bp": 15.26,
+   "forward_1m": 4.61461,
+   "avg_overnight": 4.60598,
+   "futures_implied": 4.7669,
+   "convexity_bp": 15.23,
    "status": "market"
   },
   {
@@ -1014,10 +1014,10 @@
    "reset_date": "2033-09-01",
    "end_date": "2033-10-01",
    "days": 30,
-   "forward_1m": 4.63337,
-   "avg_overnight": 4.62505,
-   "futures_implied": 4.78942,
-   "convexity_bp": 15.6,
+   "forward_1m": 4.61884,
+   "avg_overnight": 4.61056,
+   "futures_implied": 4.77455,
+   "convexity_bp": 15.57,
    "status": "market"
   },
   {
@@ -1025,10 +1025,10 @@
    "reset_date": "2033-10-01",
    "end_date": "2033-11-01",
    "days": 31,
-   "forward_1m": 4.63928,
-   "avg_overnight": 4.63064,
-   "futures_implied": 4.79864,
-   "convexity_bp": 15.94,
+   "forward_1m": 4.62474,
+   "avg_overnight": 4.61615,
+   "futures_implied": 4.78377,
+   "convexity_bp": 15.9,
    "status": "market"
   },
   {
@@ -1036,10 +1036,10 @@
    "reset_date": "2033-11-01",
    "end_date": "2033-12-01",
    "days": 30,
-   "forward_1m": 4.64663,
-   "avg_overnight": 4.63827,
-   "futures_implied": 4.80977,
-   "convexity_bp": 16.31,
+   "forward_1m": 4.63208,
+   "avg_overnight": 4.62378,
+   "futures_implied": 4.79489,
+   "convexity_bp": 16.28,
    "status": "market"
   },
   {
@@ -1047,10 +1047,10 @@
    "reset_date": "2033-12-01",
    "end_date": "2034-01-01",
    "days": 31,
-   "forward_1m": 4.6543,
-   "avg_overnight": 4.6456,
-   "futures_implied": 4.82105,
-   "convexity_bp": 16.67,
+   "forward_1m": 4.63974,
+   "avg_overnight": 4.6311,
+   "futures_implied": 4.80615,
+   "convexity_bp": 16.64,
    "status": "market"
   },
   {
@@ -1058,10 +1058,10 @@
    "reset_date": "2034-01-01",
    "end_date": "2034-02-01",
    "days": 31,
-   "forward_1m": 4.65918,
-   "avg_overnight": 4.65047,
-   "futures_implied": 4.82923,
-   "convexity_bp": 17.0,
+   "forward_1m": 4.64463,
+   "avg_overnight": 4.63597,
+   "futures_implied": 4.81433,
+   "convexity_bp": 16.97,
    "status": "market"
   },
   {
@@ -1069,10 +1069,10 @@
    "reset_date": "2034-02-01",
    "end_date": "2034-03-01",
    "days": 28,
-   "forward_1m": 4.65999,
-   "avg_overnight": 4.65219,
-   "futures_implied": 4.83363,
-   "convexity_bp": 17.36,
+   "forward_1m": 4.64545,
+   "avg_overnight": 4.6377,
+   "futures_implied": 4.81874,
+   "convexity_bp": 17.33,
    "status": "market"
   },
   {
@@ -1080,10 +1080,10 @@
    "reset_date": "2034-03-01",
    "end_date": "2034-04-01",
    "days": 31,
-   "forward_1m": 4.65968,
-   "avg_overnight": 4.65089,
-   "futures_implied": 4.83675,
-   "convexity_bp": 17.71,
+   "forward_1m": 4.64514,
+   "avg_overnight": 4.63641,
+   "futures_implied": 4.82187,
+   "convexity_bp": 17.67,
    "status": "market"
   },
   {
@@ -1091,10 +1091,10 @@
    "reset_date": "2034-04-01",
    "end_date": "2034-05-01",
    "days": 30,
-   "forward_1m": 4.65912,
-   "avg_overnight": 4.65072,
-   "futures_implied": 4.83933,
-   "convexity_bp": 18.02,
+   "forward_1m": 4.6446,
+   "avg_overnight": 4.63625,
+   "futures_implied": 4.82447,
+   "convexity_bp": 17.99,
    "status": "market"
   },
   {
@@ -1102,10 +1102,10 @@
    "reset_date": "2034-05-01",
    "end_date": "2034-06-01",
    "days": 31,
-   "forward_1m": 4.66333,
-   "avg_overnight": 4.65459,
-   "futures_implied": 4.84734,
-   "convexity_bp": 18.4,
+   "forward_1m": 4.64882,
+   "avg_overnight": 4.64013,
+   "futures_implied": 4.83247,
+   "convexity_bp": 18.36,
    "status": "market"
   },
   {
@@ -1113,10 +1113,10 @@
    "reset_date": "2034-06-01",
    "end_date": "2034-07-01",
    "days": 30,
-   "forward_1m": 4.67066,
-   "avg_overnight": 4.6622,
-   "futures_implied": 4.85832,
-   "convexity_bp": 18.77,
+   "forward_1m": 4.65615,
+   "avg_overnight": 4.64774,
+   "futures_implied": 4.84345,
+   "convexity_bp": 18.73,
    "status": "market"
   },
   {
@@ -1124,10 +1124,10 @@
    "reset_date": "2034-07-01",
    "end_date": "2034-08-01",
    "days": 31,
-   "forward_1m": 4.67791,
-   "avg_overnight": 4.66909,
-   "futures_implied": 4.86912,
-   "convexity_bp": 19.12,
+   "forward_1m": 4.66339,
+   "avg_overnight": 4.65462,
+   "futures_implied": 4.85425,
+   "convexity_bp": 19.09,
    "status": "market"
   },
   {
@@ -1135,10 +1135,10 @@
    "reset_date": "2034-08-01",
    "end_date": "2034-09-01",
    "days": 31,
-   "forward_1m": 4.68113,
-   "avg_overnight": 4.67226,
-   "futures_implied": 4.87636,
-   "convexity_bp": 19.52,
+   "forward_1m": 4.66661,
+   "avg_overnight": 4.65779,
+   "futures_implied": 4.86148,
+   "convexity_bp": 19.49,
    "status": "market"
   },
   {
@@ -1146,10 +1146,10 @@
    "reset_date": "2034-09-01",
    "end_date": "2034-10-01",
    "days": 30,
-   "forward_1m": 4.67893,
-   "avg_overnight": 4.67046,
-   "futures_implied": 4.87785,
-   "convexity_bp": 19.89,
+   "forward_1m": 4.66441,
+   "avg_overnight": 4.65599,
+   "futures_implied": 4.86297,
+   "convexity_bp": 19.86,
    "status": "market"
   },
   {
@@ -1157,10 +1157,10 @@
    "reset_date": "2034-10-01",
    "end_date": "2034-11-01",
    "days": 31,
-   "forward_1m": 4.67807,
-   "avg_overnight": 4.66927,
-   "futures_implied": 4.88061,
-   "convexity_bp": 20.25,
+   "forward_1m": 4.66355,
+   "avg_overnight": 4.65481,
+   "futures_implied": 4.86573,
+   "convexity_bp": 20.22,
    "status": "market"
   },
   {
@@ -1168,10 +1168,10 @@
    "reset_date": "2034-11-01",
    "end_date": "2034-12-01",
    "days": 30,
-   "forward_1m": 4.68294,
-   "avg_overnight": 4.67439,
-   "futures_implied": 4.88933,
-   "convexity_bp": 20.64,
+   "forward_1m": 4.66843,
+   "avg_overnight": 4.65994,
+   "futures_implied": 4.87445,
+   "convexity_bp": 20.6,
    "status": "market"
   },
   {
@@ -1179,10 +1179,10 @@
    "reset_date": "2034-12-01",
    "end_date": "2035-01-01",
    "days": 31,
-   "forward_1m": 4.69498,
-   "avg_overnight": 4.68618,
-   "futures_implied": 4.90517,
-   "convexity_bp": 21.02,
+   "forward_1m": 4.68047,
+   "avg_overnight": 4.67172,
+   "futures_implied": 4.8903,
+   "convexity_bp": 20.98,
    "status": "market"
   },
   {
@@ -1190,10 +1190,10 @@
    "reset_date": "2035-01-01",
    "end_date": "2035-02-01",
    "days": 31,
-   "forward_1m": 4.70767,
-   "avg_overnight": 4.69875,
-   "futures_implied": 4.92155,
-   "convexity_bp": 21.39,
+   "forward_1m": 4.69316,
+   "avg_overnight": 4.6843,
+   "futures_implied": 4.90667,
+   "convexity_bp": 21.35,
    "status": "market"
   },
   {
@@ -1201,10 +1201,10 @@
    "reset_date": "2035-02-01",
    "end_date": "2035-03-01",
    "days": 28,
-   "forward_1m": 4.71469,
-   "avg_overnight": 4.7067,
-   "futures_implied": 4.9324,
-   "convexity_bp": 21.77,
+   "forward_1m": 4.70019,
+   "avg_overnight": 4.69225,
+   "futures_implied": 4.91752,
+   "convexity_bp": 21.73,
    "status": "market"
   },
   {
@@ -1212,10 +1212,10 @@
    "reset_date": "2035-03-01",
    "end_date": "2035-04-01",
    "days": 31,
-   "forward_1m": 4.71624,
-   "avg_overnight": 4.70731,
-   "futures_implied": 4.93783,
-   "convexity_bp": 22.16,
+   "forward_1m": 4.70173,
+   "avg_overnight": 4.69286,
+   "futures_implied": 4.92295,
+   "convexity_bp": 22.12,
    "status": "market"
   },
   {
@@ -1223,10 +1223,10 @@
    "reset_date": "2035-04-01",
    "end_date": "2035-05-01",
    "days": 30,
-   "forward_1m": 4.71322,
-   "avg_overnight": 4.70454,
-   "futures_implied": 4.93849,
-   "convexity_bp": 22.53,
+   "forward_1m": 4.69872,
+   "avg_overnight": 4.69009,
+   "futures_implied": 4.92362,
+   "convexity_bp": 22.49,
    "status": "market"
   },
   {
@@ -1234,10 +1234,10 @@
    "reset_date": "2035-05-01",
    "end_date": "2035-06-01",
    "days": 31,
-   "forward_1m": 4.71251,
-   "avg_overnight": 4.70358,
-   "futures_implied": 4.94185,
-   "convexity_bp": 22.93,
+   "forward_1m": 4.69802,
+   "avg_overnight": 4.68914,
+   "futures_implied": 4.92697,
+   "convexity_bp": 22.9,
    "status": "market"
   },
   {
@@ -1245,10 +1245,10 @@
    "reset_date": "2035-06-01",
    "end_date": "2035-07-01",
    "days": 30,
-   "forward_1m": 4.71534,
-   "avg_overnight": 4.70669,
-   "futures_implied": 4.94863,
-   "convexity_bp": 23.33,
+   "forward_1m": 4.70085,
+   "avg_overnight": 4.69225,
+   "futures_implied": 4.93376,
+   "convexity_bp": 23.29,
    "status": "market"
   },
   {
@@ -1256,10 +1256,10 @@
    "reset_date": "2035-07-01",
    "end_date": "2035-08-01",
    "days": 31,
-   "forward_1m": 4.72082,
-   "avg_overnight": 4.71182,
-   "futures_implied": 4.95805,
-   "convexity_bp": 23.72,
+   "forward_1m": 4.70633,
+   "avg_overnight": 4.69738,
+   "futures_implied": 4.94317,
+   "convexity_bp": 23.68,
    "status": "market"
   },
   {
@@ -1267,10 +1267,10 @@
    "reset_date": "2035-08-01",
    "end_date": "2035-09-01",
    "days": 31,
-   "forward_1m": 4.72549,
-   "avg_overnight": 4.71645,
-   "futures_implied": 4.96686,
-   "convexity_bp": 24.14,
+   "forward_1m": 4.711,
+   "avg_overnight": 4.70201,
+   "futures_implied": 4.95198,
+   "convexity_bp": 24.1,
    "status": "market"
   },
   {
@@ -1278,10 +1278,10 @@
    "reset_date": "2035-09-01",
    "end_date": "2035-10-01",
    "days": 30,
-   "forward_1m": 4.72803,
-   "avg_overnight": 4.71936,
-   "futures_implied": 4.97294,
-   "convexity_bp": 24.49,
+   "forward_1m": 4.71355,
+   "avg_overnight": 4.70493,
+   "futures_implied": 4.95807,
+   "convexity_bp": 24.45,
    "status": "market"
   },
   {
@@ -1289,10 +1289,10 @@
    "reset_date": "2035-10-01",
    "end_date": "2035-11-01",
    "days": 31,
-   "forward_1m": 4.73331,
-   "avg_overnight": 4.7243,
-   "futures_implied": 4.98265,
-   "convexity_bp": 24.93,
+   "forward_1m": 4.71883,
+   "avg_overnight": 4.70987,
+   "futures_implied": 4.96777,
+   "convexity_bp": 24.89,
    "status": "market"
   },
   {
@@ -1300,10 +1300,10 @@
    "reset_date": "2035-11-01",
    "end_date": "2035-12-01",
    "days": 30,
-   "forward_1m": 4.74169,
-   "avg_overnight": 4.73299,
-   "futures_implied": 4.99503,
-   "convexity_bp": 25.33,
+   "forward_1m": 4.72721,
+   "avg_overnight": 4.71857,
+   "futures_implied": 4.98015,
+   "convexity_bp": 25.29,
    "status": "market"
   },
   {
@@ -1311,10 +1311,10 @@
    "reset_date": "2035-12-01",
    "end_date": "2036-01-01",
    "days": 31,
-   "forward_1m": 4.75353,
-   "avg_overnight": 4.74442,
-   "futures_implied": 5.01073,
-   "convexity_bp": 25.72,
+   "forward_1m": 4.73905,
+   "avg_overnight": 4.73,
+   "futures_implied": 4.99586,
+   "convexity_bp": 25.68,
    "status": "market"
   },
   {
@@ -1322,10 +1322,10 @@
    "reset_date": "2036-01-01",
    "end_date": "2036-02-01",
    "days": 31,
-   "forward_1m": 4.76584,
-   "avg_overnight": 4.7567,
-   "futures_implied": 5.0273,
-   "convexity_bp": 26.15,
+   "forward_1m": 4.75136,
+   "avg_overnight": 4.74228,
+   "futures_implied": 5.01242,
+   "convexity_bp": 26.11,
    "status": "market"
   },
   {
@@ -1333,10 +1333,10 @@
    "reset_date": "2036-02-01",
    "end_date": "2036-03-01",
    "days": 29,
-   "forward_1m": 4.7729,
-   "avg_overnight": 4.76439,
-   "futures_implied": 5.03854,
-   "convexity_bp": 26.56,
+   "forward_1m": 4.75843,
+   "avg_overnight": 4.74997,
+   "futures_implied": 5.02367,
+   "convexity_bp": 26.52,
    "status": "market"
   },
   {
@@ -1344,10 +1344,10 @@
    "reset_date": "2036-03-01",
    "end_date": "2036-04-01",
    "days": 31,
-   "forward_1m": 4.77481,
-   "avg_overnight": 4.7656,
-   "futures_implied": 5.04437,
-   "convexity_bp": 26.96,
+   "forward_1m": 4.76033,
+   "avg_overnight": 4.75118,
+   "futures_implied": 5.02949,
+   "convexity_bp": 26.92,
    "status": "market"
   },
   {
@@ -1355,10 +1355,10 @@
    "reset_date": "2036-04-01",
    "end_date": "2036-05-01",
    "days": 30,
-   "forward_1m": 4.77123,
-   "avg_overnight": 4.7624,
-   "futures_implied": 5.0451,
-   "convexity_bp": 27.39,
+   "forward_1m": 4.75676,
+   "avg_overnight": 4.74798,
+   "futures_implied": 5.03022,
+   "convexity_bp": 27.35,
    "status": "market"
   },
   {
@@ -1366,10 +1366,10 @@
    "reset_date": "2036-05-01",
    "end_date": "2036-06-01",
    "days": 31,
-   "forward_1m": 4.76617,
-   "avg_overnight": 4.75705,
-   "futures_implied": 5.04416,
-   "convexity_bp": 27.8,
+   "forward_1m": 4.7517,
+   "avg_overnight": 4.74264,
+   "futures_implied": 5.02928,
+   "convexity_bp": 27.76,
    "status": "market"
   },
   {
@@ -1377,10 +1377,10 @@
    "reset_date": "2036-06-01",
    "end_date": "2036-07-01",
    "days": 30,
-   "forward_1m": 4.76022,
-   "avg_overnight": 4.75139,
-   "futures_implied": 5.04212,
-   "convexity_bp": 28.19,
+   "forward_1m": 4.74575,
+   "avg_overnight": 4.73698,
+   "futures_implied": 5.02725,
+   "convexity_bp": 28.15,
    "status": "market"
   },
   {
@@ -1388,10 +1388,10 @@
    "reset_date": "2036-07-01",
    "end_date": "2036-08-01",
    "days": 31,
-   "forward_1m": 4.76031,
-   "avg_overnight": 4.75119,
-   "futures_implied": 5.04238,
-   "convexity_bp": 28.21,
+   "forward_1m": 4.74584,
+   "avg_overnight": 4.73678,
+   "futures_implied": 5.0275,
+   "convexity_bp": 28.17,
    "status": "extrapolated"
   },
   {
@@ -1399,10 +1399,10 @@
    "reset_date": "2036-08-01",
    "end_date": "2036-09-01",
    "days": 31,
-   "forward_1m": 4.76031,
-   "avg_overnight": 4.75119,
-   "futures_implied": 5.04238,
-   "convexity_bp": 28.21,
+   "forward_1m": 4.74584,
+   "avg_overnight": 4.73678,
+   "futures_implied": 5.0275,
+   "convexity_bp": 28.17,
    "status": "extrapolated"
   },
   {
@@ -1410,10 +1410,10 @@
    "reset_date": "2036-09-01",
    "end_date": "2036-10-01",
    "days": 30,
-   "forward_1m": 4.76004,
-   "avg_overnight": 4.75119,
-   "futures_implied": 5.04208,
-   "convexity_bp": 28.2,
+   "forward_1m": 4.74558,
+   "avg_overnight": 4.73678,
+   "futures_implied": 5.02721,
+   "convexity_bp": 28.16,
    "status": "extrapolated"
   },
   {
@@ -1421,10 +1421,10 @@
    "reset_date": "2036-10-01",
    "end_date": "2036-11-01",
    "days": 31,
-   "forward_1m": 4.76031,
-   "avg_overnight": 4.75119,
-   "futures_implied": 5.04238,
-   "convexity_bp": 28.21,
+   "forward_1m": 4.74584,
+   "avg_overnight": 4.73678,
+   "futures_implied": 5.0275,
+   "convexity_bp": 28.17,
    "status": "extrapolated"
   }
  ]
