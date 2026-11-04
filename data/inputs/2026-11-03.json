@@ -1,0 +1,993 @@
+{
+ "trade_date": "2026-11-03",
+ "source": {
+  "type": "live",
+  "cme": {
+   "SR3": {
+    "reportType": "Final",
+    "updateTime": "Tuesday, 03 Nov 2026 11:55 PM"
+   },
+   "SR1": {
+    "reportType": "Final",
+    "updateTime": "Tuesday, 03 Nov 2026 11:55 PM"
+   }
+  },
+  "fetched_at": "2026-11-04T20:26:04.750934Z"
+ },
+ "quotes": [
+  {
+   "product": "SR3",
+   "label": "AUG 26",
+   "year": 2026,
+   "month": 8,
+   "settle": 96.165,
+   "open_interest": 8372
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 26",
+   "year": 2026,
+   "month": 9,
+   "settle": 96.075,
+   "open_interest": 1331157
+  },
+  {
+   "product": "SR3",
+   "label": "OCT 26",
+   "year": 2026,
+   "month": 10,
+   "settle": 95.9925,
+   "open_interest": 6979
+  },
+  {
+   "product": "SR3",
+   "label": "NOV 26",
+   "year": 2026,
+   "month": 11,
+   "settle": 95.915,
+   "open_interest": 1414
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 26",
+   "year": 2026,
+   "month": 12,
+   "settle": 95.84,
+   "open_interest": 1665171
+  },
+  {
+   "product": "SR3",
+   "label": "JAN 27",
+   "year": 2027,
+   "month": 1,
+   "settle": 95.76,
+   "open_interest": 1838
+  },
+  {
+   "product": "SR3",
+   "label": "FEB 27",
+   "year": 2027,
+   "month": 2,
+   "settle": 95.705,
+   "open_interest": 554
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 27",
+   "year": 2027,
+   "month": 3,
+   "settle": 95.635,
+   "open_interest": 1278682
+  },
+  {
+   "product": "SR3",
+   "label": "APR 27",
+   "year": 2027,
+   "month": 4,
+   "settle": 95.57,
+   "open_interest": 200
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 27",
+   "year": 2027,
+   "month": 6,
+   "settle": 95.505,
+   "open_interest": 1238073
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 27",
+   "year": 2027,
+   "month": 9,
+   "settle": 95.465,
+   "open_interest": 1097110
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 27",
+   "year": 2027,
+   "month": 12,
+   "settle": 95.485,
+   "open_interest": 1536682
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 28",
+   "year": 2028,
+   "month": 3,
+   "settle": 95.515,
+   "open_interest": 848433
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 28",
+   "year": 2028,
+   "month": 6,
+   "settle": 95.535,
+   "open_interest": 658919
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 28",
+   "year": 2028,
+   "month": 9,
+   "settle": 95.55,
+   "open_interest": 682518
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 28",
+   "year": 2028,
+   "month": 12,
+   "settle": 95.56,
+   "open_interest": 552715
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 29",
+   "year": 2029,
+   "month": 3,
+   "settle": 95.57,
+   "open_interest": 394943
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 29",
+   "year": 2029,
+   "month": 6,
+   "settle": 95.58,
+   "open_interest": 393949
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 29",
+   "year": 2029,
+   "month": 9,
+   "settle": 95.585,
+   "open_interest": 305296
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 29",
+   "year": 2029,
+   "month": 12,
+   "settle": 95.585,
+   "open_interest": 251999
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 30",
+   "year": 2030,
+   "month": 3,
+   "settle": 95.575,
+   "open_interest": 185658
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 30",
+   "year": 2030,
+   "month": 6,
+   "settle": 95.565,
+   "open_interest": 156356
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 30",
+   "year": 2030,
+   "month": 9,
+   "settle": 95.55,
+   "open_interest": 149877
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 30",
+   "year": 2030,
+   "month": 12,
+   "settle": 95.53,
+   "open_interest": 116696
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 31",
+   "year": 2031,
+   "month": 3,
+   "settle": 95.5,
+   "open_interest": 85453
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 31",
+   "year": 2031,
+   "month": 6,
+   "settle": 95.47,
+   "open_interest": 71628
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 31",
+   "year": 2031,
+   "month": 9,
+   "settle": 95.43,
+   "open_interest": 42407
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 31",
+   "year": 2031,
+   "month": 12,
+   "settle": 95.395,
+   "open_interest": 9277
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 32",
+   "year": 2032,
+   "month": 3,
+   "settle": 95.355,
+   "open_interest": 4833
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 32",
+   "year": 2032,
+   "month": 6,
+   "settle": 95.32,
+   "open_interest": 1553
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 32",
+   "year": 2032,
+   "month": 9,
+   "settle": 95.285,
+   "open_interest": 849
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 32",
+   "year": 2032,
+   "month": 12,
+   "settle": 95.255,
+   "open_interest": 165
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 33",
+   "year": 2033,
+   "month": 3,
+   "settle": 95.225,
+   "open_interest": 36
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 33",
+   "year": 2033,
+   "month": 6,
+   "settle": 95.195,
+   "open_interest": 3
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 33",
+   "year": 2033,
+   "month": 9,
+   "settle": 95.165,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 33",
+   "year": 2033,
+   "month": 12,
+   "settle": 95.14,
+   "open_interest": 11
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 34",
+   "year": 2034,
+   "month": 3,
+   "settle": 95.12,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 34",
+   "year": 2034,
+   "month": 6,
+   "settle": 95.09,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 34",
+   "year": 2034,
+   "month": 9,
+   "settle": 95.08,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 34",
+   "year": 2034,
+   "month": 12,
+   "settle": 95.035,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 35",
+   "year": 2035,
+   "month": 3,
+   "settle": 95.025,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "JUN 35",
+   "year": 2035,
+   "month": 6,
+   "settle": 95.0,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "SEP 35",
+   "year": 2035,
+   "month": 9,
+   "settle": 94.975,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "DEC 35",
+   "year": 2035,
+   "month": 12,
+   "settle": 94.93,
+   "open_interest": 0
+  },
+  {
+   "product": "SR3",
+   "label": "MAR 36",
+   "year": 2036,
+   "month": 3,
+   "settle": 94.92,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "NOV 26",
+   "year": 2026,
+   "month": 11,
+   "settle": 96.095,
+   "open_interest": 382060
+  },
+  {
+   "product": "SR1",
+   "label": "DEC 26",
+   "year": 2026,
+   "month": 12,
+   "settle": 95.955,
+   "open_interest": 257464
+  },
+  {
+   "product": "SR1",
+   "label": "JAN 27",
+   "year": 2027,
+   "month": 1,
+   "settle": 95.885,
+   "open_interest": 198422
+  },
+  {
+   "product": "SR1",
+   "label": "FEB 27",
+   "year": 2027,
+   "month": 2,
+   "settle": 95.835,
+   "open_interest": 124242
+  },
+  {
+   "product": "SR1",
+   "label": "MAR 27",
+   "year": 2027,
+   "month": 3,
+   "settle": 95.77,
+   "open_interest": 36138
+  },
+  {
+   "product": "SR1",
+   "label": "APR 27",
+   "year": 2027,
+   "month": 4,
+   "settle": 95.695,
+   "open_interest": 71698
+  },
+  {
+   "product": "SR1",
+   "label": "MAY 27",
+   "year": 2027,
+   "month": 5,
+   "settle": 95.635,
+   "open_interest": 72709
+  },
+  {
+   "product": "SR1",
+   "label": "JUN 27",
+   "year": 2027,
+   "month": 6,
+   "settle": 95.57,
+   "open_interest": 26611
+  },
+  {
+   "product": "SR1",
+   "label": "JUL 27",
+   "year": 2027,
+   "month": 7,
+   "settle": 95.535,
+   "open_interest": 39187
+  },
+  {
+   "product": "SR1",
+   "label": "AUG 27",
+   "year": 2027,
+   "month": 8,
+   "settle": 95.52,
+   "open_interest": 23916
+  },
+  {
+   "product": "SR1",
+   "label": "SEP 27",
+   "year": 2027,
+   "month": 9,
+   "settle": 95.5,
+   "open_interest": 5483
+  },
+  {
+   "product": "SR1",
+   "label": "OCT 27",
+   "year": 2027,
+   "month": 10,
+   "settle": 95.485,
+   "open_interest": 10378
+  },
+  {
+   "product": "SR1",
+   "label": "NOV 27",
+   "year": 2027,
+   "month": 11,
+   "settle": 95.485,
+   "open_interest": 2585
+  },
+  {
+   "product": "SR1",
+   "label": "DEC 27",
+   "year": 2027,
+   "month": 12,
+   "settle": 95.5,
+   "open_interest": 127
+  },
+  {
+   "product": "SR1",
+   "label": "JAN 28",
+   "year": 2028,
+   "month": 1,
+   "settle": 95.51,
+   "open_interest": 75
+  },
+  {
+   "product": "SR1",
+   "label": "FEB 28",
+   "year": 2028,
+   "month": 2,
+   "settle": 95.52,
+   "open_interest": 53
+  },
+  {
+   "product": "SR1",
+   "label": "MAR 28",
+   "year": 2028,
+   "month": 3,
+   "settle": 95.53,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "APR 28",
+   "year": 2028,
+   "month": 4,
+   "settle": 95.6,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "MAY 28",
+   "year": 2028,
+   "month": 5,
+   "settle": 95.575,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "JUN 28",
+   "year": 2028,
+   "month": 6,
+   "settle": 95.55,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "JUL 28",
+   "year": 2028,
+   "month": 7,
+   "settle": 95.56,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "AUG 28",
+   "year": 2028,
+   "month": 8,
+   "settle": 95.565,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "SEP 28",
+   "year": 2028,
+   "month": 9,
+   "settle": 95.56,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "OCT 28",
+   "year": 2028,
+   "month": 10,
+   "settle": 95.54,
+   "open_interest": 0
+  },
+  {
+   "product": "SR1",
+   "label": "NOV 28",
+   "year": 2028,
+   "month": 11,
+   "settle": 95.54,
+   "open_interest": 0
+  }
+ ],
+ "sofr": [
+  [
+   "2026-06-08",
+   3.63
+  ],
+  [
+   "2026-06-09",
+   3.6
+  ],
+  [
+   "2026-06-10",
+   3.59
+  ],
+  [
+   "2026-06-11",
+   3.6
+  ],
+  [
+   "2026-06-12",
+   3.65
+  ],
+  [
+   "2026-06-15",
+   3.69
+  ],
+  [
+   "2026-06-16",
+   3.63
+  ],
+  [
+   "2026-06-17",
+   3.63
+  ],
+  [
+   "2026-06-18",
+   3.62
+  ],
+  [
+   "2026-06-22",
+   3.61
+  ],
+  [
+   "2026-06-23",
+   3.62
+  ],
+  [
+   "2026-06-24",
+   3.62
+  ],
+  [
+   "2026-06-25",
+   3.64
+  ],
+  [
+   "2026-06-26",
+   3.62
+  ],
+  [
+   "2026-06-29",
+   3.62
+  ],
+  [
+   "2026-06-30",
+   3.68
+  ],
+  [
+   "2026-07-01",
+   3.66
+  ],
+  [
+   "2026-07-02",
+   3.64
+  ],
+  [
+   "2026-07-06",
+   3.63
+  ],
+  [
+   "2026-07-07",
+   3.62
+  ],
+  [
+   "2026-07-08",
+   3.58
+  ],
+  [
+   "2026-07-09",
+   3.53
+  ],
+  [
+   "2026-07-10",
+   3.55
+  ],
+  [
+   "2026-07-13",
+   3.6
+  ],
+  [
+   "2026-07-14",
+   3.63
+  ],
+  [
+   "2026-07-15",
+   3.64
+  ],
+  [
+   "2026-07-16",
+   3.62
+  ],
+  [
+   "2026-07-17",
+   3.59
+  ],
+  [
+   "2026-07-20",
+   3.57
+  ],
+  [
+   "2026-07-21",
+   3.61
+  ],
+  [
+   "2026-07-22",
+   3.62
+  ],
+  [
+   "2026-07-23",
+   3.64
+  ],
+  [
+   "2026-07-24",
+   3.64
+  ],
+  [
+   "2026-07-27",
+   3.64
+  ],
+  [
+   "2026-07-28",
+   3.65
+  ],
+  [
+   "2026-07-29",
+   3.65
+  ],
+  [
+   "2026-07-30",
+   3.65
+  ],
+  [
+   "2026-07-31",
+   3.66
+  ],
+  [
+   "2026-08-03",
+   3.65
+  ],
+  [
+   "2026-08-04",
+   3.66
+  ],
+  [
+   "2026-08-05",
+   3.64
+  ],
+  [
+   "2026-08-06",
+   3.65
+  ],
+  [
+   "2026-08-07",
+   3.62
+  ],
+  [
+   "2026-08-10",
+   3.63
+  ],
+  [
+   "2026-08-11",
+   3.64
+  ],
+  [
+   "2026-08-12",
+   3.62
+  ],
+  [
+   "2026-08-13",
+   3.62
+  ],
+  [
+   "2026-08-14",
+   3.62
+  ],
+  [
+   "2026-08-17",
+   3.66
+  ],
+  [
+   "2026-08-18",
+   3.65
+  ],
+  [
+   "2026-08-19",
+   3.62
+  ],
+  [
+   "2026-08-20",
+   3.63
+  ],
+  [
+   "2026-08-21",
+   3.65
+  ],
+  [
+   "2026-08-24",
+   3.65
+  ],
+  [
+   "2026-08-25",
+   3.66
+  ],
+  [
+   "2026-08-26",
+   3.64
+  ],
+  [
+   "2026-08-27",
+   3.64
+  ],
+  [
+   "2026-08-28",
+   3.65
+  ],
+  [
+   "2026-08-31",
+   3.68
+  ],
+  [
+   "2026-09-01",
+   3.66
+  ],
+  [
+   "2026-09-02",
+   3.65
+  ],
+  [
+   "2026-09-03",
+   3.66
+  ],
+  [
+   "2026-09-04",
+   3.65
+  ],
+  [
+   "2026-09-08",
+   3.64
+  ],
+  [
+   "2026-09-09",
+   3.64
+  ],
+  [
+   "2026-09-10",
+   3.62
+  ],
+  [
+   "2026-09-11",
+   3.62
+  ],
+  [
+   "2026-09-14",
+   3.62
+  ],
+  [
+   "2026-09-15",
+   3.64
+  ],
+  [
+   "2026-09-16",
+   3.62
+  ],
+  [
+   "2026-09-17",
+   3.85
+  ],
+  [
+   "2026-09-18",
+   3.85
+  ],
+  [
+   "2026-09-21",
+   3.85
+  ],
+  [
+   "2026-09-22",
+   3.87
+  ],
+  [
+   "2026-09-23",
+   3.87
+  ],
+  [
+   "2026-09-24",
+   3.88
+  ],
+  [
+   "2026-09-25",
+   3.9
+  ],
+  [
+   "2026-09-28",
+   3.9
+  ],
+  [
+   "2026-09-29",
+   3.88
+  ],
+  [
+   "2026-09-30",
+   3.9
+  ],
+  [
+   "2026-10-01",
+   3.87
+  ],
+  [
+   "2026-10-02",
+   3.88
+  ],
+  [
+   "2026-10-05",
+   3.89
+  ],
+  [
+   "2026-10-06",
+   3.9
+  ],
+  [
+   "2026-10-07",
+   3.88
+  ],
+  [
+   "2026-10-08",
+   3.87
+  ],
+  [
+   "2026-10-09",
+   3.87
+  ],
+  [
+   "2026-10-13",
+   3.89
+  ],
+  [
+   "2026-10-14",
+   3.88
+  ],
+  [
+   "2026-10-15",
+   3.89
+  ],
+  [
+   "2026-10-16",
+   3.88
+  ],
+  [
+   "2026-10-19",
+   3.87
+  ],
+  [
+   "2026-10-20",
+   3.88
+  ],
+  [
+   "2026-10-21",
+   3.88
+  ],
+  [
+   "2026-10-22",
+   3.9
+  ],
+  [
+   "2026-10-23",
+   3.92
+  ],
+  [
+   "2026-10-26",
+   3.93
+  ],
+  [
+   "2026-10-27",
+   3.95
+  ],
+  [
+   "2026-10-28",
+   3.94
+  ],
+  [
+   "2026-10-29",
+   3.94
+  ],
+  [
+   "2026-10-30",
+   3.95
+  ],
+  [
+   "2026-11-02",
+   3.95
+  ],
+  [
+   "2026-11-03",
+   3.97
+  ]
+ ]
+}
