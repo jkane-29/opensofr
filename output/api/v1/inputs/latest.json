@@ -1,10 +1,10 @@
 {
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "stats": {
   "instruments": 61,
-  "max_abs_residual_bp": 0.751,
-  "rms_residual_bp": 0.232,
-  "max_abs_residual_liquid_bp": 0.625,
+  "max_abs_residual_bp": 0.425,
+  "rms_residual_bp": 0.171,
+  "max_abs_residual_liquid_bp": 0.425,
   "last_contract_end": "2036-06-18"
  },
  "instruments": [
@@ -13,59 +13,59 @@
    "product": "SR3",
    "ref_start": "2026-08-19",
    "ref_end": "2026-11-18",
-   "settle": 96.165,
-   "implied_rate": 3.835,
+   "settle": 96.17,
+   "implied_rate": 3.83,
    "convexity_bp": 0.0,
-   "model_rate": 3.83196,
-   "residual_bp": -0.304,
-   "open_interest": 9173
+   "model_rate": 3.83194,
+   "residual_bp": 0.194,
+   "open_interest": 9174
   },
   {
    "contract": "SR3 SEP 26",
    "product": "SR3",
    "ref_start": "2026-09-16",
    "ref_end": "2026-12-16",
-   "settle": 96.075,
-   "implied_rate": 3.925,
+   "settle": 96.08,
+   "implied_rate": 3.92,
    "convexity_bp": 0.0,
-   "model_rate": 3.92388,
-   "residual_bp": -0.112,
-   "open_interest": 1329121
+   "model_rate": 3.92082,
+   "residual_bp": 0.082,
+   "open_interest": 1325325
   },
   {
    "contract": "SR3 OCT 26",
    "product": "SR3",
    "ref_start": "2026-10-21",
    "ref_end": "2027-01-20",
-   "settle": 95.99,
-   "implied_rate": 4.01,
+   "settle": 96.0025,
+   "implied_rate": 3.9975,
    "convexity_bp": 0.0,
-   "model_rate": 4.01751,
-   "residual_bp": 0.751,
-   "open_interest": 7379
+   "model_rate": 4.00023,
+   "residual_bp": 0.273,
+   "open_interest": 7562
   },
   {
    "contract": "SR1 NOV 26",
    "product": "SR1",
    "ref_start": "2026-11-01",
    "ref_end": "2026-12-01",
-   "settle": 96.0975,
-   "implied_rate": 3.9025,
+   "settle": 96.1,
+   "implied_rate": 3.9,
    "convexity_bp": 0.0,
-   "model_rate": 3.90018,
-   "residual_bp": -0.232,
-   "open_interest": 386442
+   "model_rate": 3.89905,
+   "residual_bp": -0.095,
+   "open_interest": 414622
   },
   {
    "contract": "SR3 NOV 26",
    "product": "SR3",
    "ref_start": "2026-11-18",
    "ref_end": "2027-02-17",
-   "settle": 95.9125,
-   "implied_rate": 4.0875,
+   "settle": 95.94,
+   "implied_rate": 4.06,
    "convexity_bp": 0.0,
-   "model_rate": 4.09215,
-   "residual_bp": 0.465,
+   "model_rate": 4.05748,
+   "residual_bp": -0.252,
    "open_interest": 1529
   },
   {
@@ -73,71 +73,71 @@
    "product": "SR1",
    "ref_start": "2026-12-01",
    "ref_end": "2027-01-01",
-   "settle": 95.95,
-   "implied_rate": 4.05,
+   "settle": 95.98,
+   "implied_rate": 4.02,
    "convexity_bp": 0.0,
-   "model_rate": 4.04762,
-   "residual_bp": -0.238,
-   "open_interest": 272188
+   "model_rate": 4.02092,
+   "residual_bp": 0.092,
+   "open_interest": 275925
   },
   {
    "contract": "SR3 DEC 26",
    "product": "SR3",
    "ref_start": "2026-12-16",
    "ref_end": "2027-03-17",
-   "settle": 95.835,
-   "implied_rate": 4.165,
+   "settle": 95.885,
+   "implied_rate": 4.115,
    "convexity_bp": 0.02,
-   "model_rate": 4.16469,
-   "residual_bp": -0.031,
-   "open_interest": 1657460
+   "model_rate": 4.11324,
+   "residual_bp": -0.176,
+   "open_interest": 1644538
   },
   {
    "contract": "SR1 JAN 27",
    "product": "SR1",
    "ref_start": "2027-01-01",
    "ref_end": "2027-02-01",
-   "settle": 95.875,
-   "implied_rate": 4.125,
+   "settle": 95.92,
+   "implied_rate": 4.08,
    "convexity_bp": 0.02,
-   "model_rate": 4.11917,
-   "residual_bp": -0.583,
-   "open_interest": 193663
+   "model_rate": 4.07905,
+   "residual_bp": -0.095,
+   "open_interest": 188719
   },
   {
    "contract": "SR3 JAN 27",
    "product": "SR3",
    "ref_start": "2027-01-20",
    "ref_end": "2027-04-21",
-   "settle": 95.76,
-   "implied_rate": 4.24,
+   "settle": 95.84,
+   "implied_rate": 4.16,
    "convexity_bp": 0.04,
-   "model_rate": 4.23861,
-   "residual_bp": -0.139,
-   "open_interest": 1838
+   "model_rate": 4.16016,
+   "residual_bp": 0.016,
+   "open_interest": 1858
   },
   {
    "contract": "SR1 FEB 27",
    "product": "SR1",
    "ref_start": "2027-02-01",
    "ref_end": "2027-03-01",
-   "settle": 95.83,
-   "implied_rate": 4.17,
+   "settle": 95.895,
+   "implied_rate": 4.105,
    "convexity_bp": 0.03,
-   "model_rate": 4.17232,
-   "residual_bp": 0.232,
-   "open_interest": 127211
+   "model_rate": 4.10856,
+   "residual_bp": 0.356,
+   "open_interest": 127732
   },
   {
    "contract": "SR3 FEB 27",
    "product": "SR3",
    "ref_start": "2027-02-17",
    "ref_end": "2027-05-19",
-   "settle": 95.705,
-   "implied_rate": 4.295,
+   "settle": 95.8,
+   "implied_rate": 4.2,
    "convexity_bp": 0.06,
-   "model_rate": 4.29772,
-   "residual_bp": 0.272,
+   "model_rate": 4.19841,
+   "residual_bp": -0.159,
    "open_interest": 554
   },
   {
@@ -145,47 +145,47 @@
    "product": "SR1",
    "ref_start": "2027-03-01",
    "ref_end": "2027-04-01",
-   "settle": 95.765,
-   "implied_rate": 4.235,
+   "settle": 95.85,
+   "implied_rate": 4.15,
    "convexity_bp": 0.05,
-   "model_rate": 4.23238,
-   "residual_bp": -0.262,
-   "open_interest": 35010
+   "model_rate": 4.14895,
+   "residual_bp": -0.105,
+   "open_interest": 33861
   },
   {
    "contract": "SR3 MAR 27",
    "product": "SR3",
    "ref_start": "2027-03-17",
    "ref_end": "2027-06-16",
-   "settle": 95.64,
-   "implied_rate": 4.36,
+   "settle": 95.76,
+   "implied_rate": 4.24,
    "convexity_bp": 0.09,
-   "model_rate": 4.36185,
-   "residual_bp": 0.185,
-   "open_interest": 1279849
+   "model_rate": 4.24123,
+   "residual_bp": 0.123,
+   "open_interest": 1302852
   },
   {
    "contract": "SR1 APR 27",
    "product": "SR1",
    "ref_start": "2027-04-01",
    "ref_end": "2027-05-01",
-   "settle": 95.69,
-   "implied_rate": 4.31,
+   "settle": 95.8,
+   "implied_rate": 4.2,
    "convexity_bp": 0.08,
-   "model_rate": 4.309,
-   "residual_bp": -0.1,
-   "open_interest": 71944
+   "model_rate": 4.20022,
+   "residual_bp": 0.022,
+   "open_interest": 68738
   },
   {
    "contract": "SR3 APR 27",
    "product": "SR3",
    "ref_start": "2027-04-21",
    "ref_end": "2027-07-21",
-   "settle": 95.58,
-   "implied_rate": 4.42,
+   "settle": 95.715,
+   "implied_rate": 4.285,
    "convexity_bp": 0.13,
-   "model_rate": 4.41721,
-   "residual_bp": -0.279,
+   "model_rate": 4.28241,
+   "residual_bp": -0.259,
    "open_interest": 200
   },
   {
@@ -193,143 +193,143 @@
    "product": "SR1",
    "ref_start": "2027-05-01",
    "ref_end": "2027-06-01",
-   "settle": 95.64,
-   "implied_rate": 4.36,
+   "settle": 95.77,
+   "implied_rate": 4.23,
    "convexity_bp": 0.11,
-   "model_rate": 4.36083,
-   "residual_bp": 0.083,
-   "open_interest": 71959
+   "model_rate": 4.23143,
+   "residual_bp": 0.143,
+   "open_interest": 72388
   },
   {
    "contract": "SR1 JUN 27",
    "product": "SR1",
    "ref_start": "2027-06-01",
    "ref_end": "2027-07-01",
-   "settle": 95.58,
-   "implied_rate": 4.42,
+   "settle": 95.72,
+   "implied_rate": 4.28,
    "convexity_bp": 0.15,
-   "model_rate": 4.4189,
-   "residual_bp": -0.11,
-   "open_interest": 27981
+   "model_rate": 4.28032,
+   "residual_bp": 0.032,
+   "open_interest": 29046
   },
   {
    "contract": "SR3 JUN 27",
    "product": "SR3",
    "ref_start": "2027-06-16",
    "ref_end": "2027-09-15",
-   "settle": 95.525,
-   "implied_rate": 4.475,
+   "settle": 95.665,
+   "implied_rate": 4.335,
    "convexity_bp": 0.21,
-   "model_rate": 4.4769,
-   "residual_bp": 0.19,
-   "open_interest": 1250953
+   "model_rate": 4.33075,
+   "residual_bp": -0.425,
+   "open_interest": 1253527
   },
   {
    "contract": "SR1 JUL 27",
    "product": "SR1",
    "ref_start": "2027-07-01",
    "ref_end": "2027-08-01",
-   "settle": 95.555,
-   "implied_rate": 4.445,
+   "settle": 95.7,
+   "implied_rate": 4.3,
    "convexity_bp": 0.19,
-   "model_rate": 4.44555,
-   "residual_bp": 0.055,
-   "open_interest": 38733
+   "model_rate": 4.30265,
+   "residual_bp": 0.265,
+   "open_interest": 37693
   },
   {
    "contract": "SR1 AUG 27",
    "product": "SR1",
    "ref_start": "2027-08-01",
    "ref_end": "2027-09-01",
-   "settle": 95.54,
-   "implied_rate": 4.46,
+   "settle": 95.69,
+   "implied_rate": 4.31,
    "convexity_bp": 0.24,
-   "model_rate": 4.45993,
-   "residual_bp": -0.007,
-   "open_interest": 24309
+   "model_rate": 4.31351,
+   "residual_bp": 0.351,
+   "open_interest": 25705
   },
   {
    "contract": "SR1 SEP 27",
    "product": "SR1",
    "ref_start": "2027-09-01",
    "ref_end": "2027-10-01",
-   "settle": 95.525,
-   "implied_rate": 4.475,
-   "convexity_bp": 0.3,
-   "model_rate": 4.47357,
-   "residual_bp": -0.143,
-   "open_interest": 5563
+   "settle": 95.67,
+   "implied_rate": 4.33,
+   "convexity_bp": 0.29,
+   "model_rate": 4.32775,
+   "residual_bp": -0.225,
+   "open_interest": 5653
   },
   {
    "contract": "SR3 SEP 27",
    "product": "SR3",
    "ref_start": "2027-09-15",
    "ref_end": "2027-12-15",
-   "settle": 95.495,
-   "implied_rate": 4.505,
+   "settle": 95.635,
+   "implied_rate": 4.365,
    "convexity_bp": 0.38,
-   "model_rate": 4.51125,
-   "residual_bp": 0.625,
-   "open_interest": 1081811
+   "model_rate": 4.36362,
+   "residual_bp": -0.138,
+   "open_interest": 1086495
   },
   {
    "contract": "SR1 OCT 27",
    "product": "SR1",
    "ref_start": "2027-10-01",
    "ref_end": "2027-11-01",
-   "settle": 95.51,
-   "implied_rate": 4.49,
+   "settle": 95.66,
+   "implied_rate": 4.34,
    "convexity_bp": 0.35,
-   "model_rate": 4.48732,
-   "residual_bp": -0.268,
-   "open_interest": 10601
+   "model_rate": 4.34181,
+   "residual_bp": 0.181,
+   "open_interest": 10603
   },
   {
    "contract": "SR1 NOV 27",
    "product": "SR1",
    "ref_start": "2027-11-01",
    "ref_end": "2027-12-01",
-   "settle": 95.51,
-   "implied_rate": 4.49,
+   "settle": 95.66,
+   "implied_rate": 4.34,
    "convexity_bp": 0.42,
-   "model_rate": 4.48835,
-   "residual_bp": -0.165,
-   "open_interest": 2856
+   "model_rate": 4.34089,
+   "residual_bp": 0.089,
+   "open_interest": 2859
   },
   {
    "contract": "SR1 DEC 27",
    "product": "SR1",
    "ref_start": "2027-12-01",
    "ref_end": "2028-01-01",
-   "settle": 95.52,
-   "implied_rate": 4.48,
+   "settle": 95.665,
+   "implied_rate": 4.335,
    "convexity_bp": 0.49,
-   "model_rate": 4.47639,
-   "residual_bp": -0.361,
-   "open_interest": 127
+   "model_rate": 4.33333,
+   "residual_bp": -0.167,
+   "open_interest": 177
   },
   {
    "contract": "SR3 DEC 27",
    "product": "SR3",
    "ref_start": "2027-12-15",
    "ref_end": "2028-03-15",
-   "settle": 95.525,
-   "implied_rate": 4.475,
+   "settle": 95.65,
+   "implied_rate": 4.35,
    "convexity_bp": 0.59,
-   "model_rate": 4.48099,
-   "residual_bp": 0.599,
-   "open_interest": 1524239
+   "model_rate": 4.34631,
+   "residual_bp": -0.369,
+   "open_interest": 1526739
   },
   {
    "contract": "SR1 JAN 28",
    "product": "SR1",
    "ref_start": "2028-01-01",
    "ref_end": "2028-02-01",
-   "settle": 95.53,
-   "implied_rate": 4.47,
+   "settle": 95.675,
+   "implied_rate": 4.325,
    "convexity_bp": 0.56,
-   "model_rate": 4.46938,
-   "residual_bp": -0.062,
+   "model_rate": 4.32863,
+   "residual_bp": 0.363,
    "open_interest": 75
   },
   {
@@ -337,11 +337,11 @@
    "product": "SR1",
    "ref_start": "2028-02-01",
    "ref_end": "2028-03-01",
-   "settle": 95.545,
-   "implied_rate": 4.455,
+   "settle": 95.685,
+   "implied_rate": 4.315,
    "convexity_bp": 0.64,
-   "model_rate": 4.45265,
-   "residual_bp": -0.235,
+   "model_rate": 4.31596,
+   "residual_bp": 0.096,
    "open_interest": 54
   },
   {
@@ -349,239 +349,239 @@
    "product": "SR3",
    "ref_start": "2028-03-15",
    "ref_end": "2028-06-21",
-   "settle": 95.56,
-   "implied_rate": 4.44,
+   "settle": 95.67,
+   "implied_rate": 4.33,
    "convexity_bp": 0.86,
-   "model_rate": 4.43876,
-   "residual_bp": -0.124,
-   "open_interest": 845744
+   "model_rate": 4.33075,
+   "residual_bp": 0.075,
+   "open_interest": 845611
   },
   {
    "contract": "SR3 JUN 28",
    "product": "SR3",
    "ref_start": "2028-06-21",
    "ref_end": "2028-09-20",
-   "settle": 95.585,
-   "implied_rate": 4.415,
-   "convexity_bp": 1.18,
-   "model_rate": 4.41554,
-   "residual_bp": 0.054,
-   "open_interest": 675481
+   "settle": 95.685,
+   "implied_rate": 4.315,
+   "convexity_bp": 1.17,
+   "model_rate": 4.31472,
+   "residual_bp": -0.028,
+   "open_interest": 680459
   },
   {
    "contract": "SR3 SEP 28",
    "product": "SR3",
    "ref_start": "2028-09-20",
    "ref_end": "2028-12-20",
-   "settle": 95.605,
-   "implied_rate": 4.395,
-   "convexity_bp": 1.53,
-   "model_rate": 4.395,
-   "residual_bp": -0.0,
-   "open_interest": 672566
+   "settle": 95.695,
+   "implied_rate": 4.305,
+   "convexity_bp": 1.52,
+   "model_rate": 4.30492,
+   "residual_bp": -0.008,
+   "open_interest": 666927
   },
   {
    "contract": "SR3 DEC 28",
    "product": "SR3",
    "ref_start": "2028-12-20",
    "ref_end": "2029-03-21",
-   "settle": 95.62,
-   "implied_rate": 4.38,
-   "convexity_bp": 1.92,
-   "model_rate": 4.37984,
-   "residual_bp": -0.016,
-   "open_interest": 557466
+   "settle": 95.705,
+   "implied_rate": 4.295,
+   "convexity_bp": 1.91,
+   "model_rate": 4.29519,
+   "residual_bp": 0.019,
+   "open_interest": 558836
   },
   {
    "contract": "SR3 MAR 29",
    "product": "SR3",
    "ref_start": "2029-03-21",
    "ref_end": "2029-06-20",
-   "settle": 95.635,
-   "implied_rate": 4.365,
-   "convexity_bp": 2.35,
-   "model_rate": 4.3651,
-   "residual_bp": 0.01,
-   "open_interest": 397919
+   "settle": 95.71,
+   "implied_rate": 4.29,
+   "convexity_bp": 2.34,
+   "model_rate": 4.28993,
+   "residual_bp": -0.007,
+   "open_interest": 393531
   },
   {
    "contract": "SR3 JUN 29",
    "product": "SR3",
    "ref_start": "2029-06-20",
    "ref_end": "2029-09-19",
-   "settle": 95.645,
-   "implied_rate": 4.355,
-   "convexity_bp": 2.82,
-   "model_rate": 4.35499,
-   "residual_bp": -0.001,
-   "open_interest": 395895
+   "settle": 95.715,
+   "implied_rate": 4.285,
+   "convexity_bp": 2.81,
+   "model_rate": 4.28479,
+   "residual_bp": -0.021,
+   "open_interest": 398808
   },
   {
    "contract": "SR3 SEP 29",
    "product": "SR3",
    "ref_start": "2029-09-19",
    "ref_end": "2029-12-19",
-   "settle": 95.65,
-   "implied_rate": 4.35,
-   "convexity_bp": 3.33,
-   "model_rate": 4.35,
-   "residual_bp": -0.0,
-   "open_interest": 305800
+   "settle": 95.72,
+   "implied_rate": 4.28,
+   "convexity_bp": 3.32,
+   "model_rate": 4.28042,
+   "residual_bp": 0.042,
+   "open_interest": 307417
   },
   {
    "contract": "SR3 DEC 29",
    "product": "SR3",
    "ref_start": "2029-12-19",
    "ref_end": "2030-03-20",
-   "settle": 95.65,
-   "implied_rate": 4.35,
-   "convexity_bp": 3.88,
-   "model_rate": 4.35001,
-   "residual_bp": 0.001,
-   "open_interest": 254350
+   "settle": 95.715,
+   "implied_rate": 4.285,
+   "convexity_bp": 3.87,
+   "model_rate": 4.28462,
+   "residual_bp": -0.038,
+   "open_interest": 258185
   },
   {
    "contract": "SR3 MAR 30",
    "product": "SR3",
    "ref_start": "2030-03-20",
    "ref_end": "2030-06-19",
-   "settle": 95.645,
-   "implied_rate": 4.355,
+   "settle": 95.71,
+   "implied_rate": 4.29,
    "convexity_bp": 4.46,
-   "model_rate": 4.35499,
-   "residual_bp": -0.001,
-   "open_interest": 185471
+   "model_rate": 4.29022,
+   "residual_bp": 0.022,
+   "open_interest": 184660
   },
   {
    "contract": "SR3 JUN 30",
    "product": "SR3",
    "ref_start": "2030-06-19",
    "ref_end": "2030-09-18",
-   "settle": 95.635,
-   "implied_rate": 4.365,
-   "convexity_bp": 5.09,
-   "model_rate": 4.36504,
-   "residual_bp": 0.004,
-   "open_interest": 157021
+   "settle": 95.7,
+   "implied_rate": 4.3,
+   "convexity_bp": 5.08,
+   "model_rate": 4.29981,
+   "residual_bp": -0.019,
+   "open_interest": 157675
   },
   {
    "contract": "SR3 SEP 30",
    "product": "SR3",
    "ref_start": "2030-09-18",
    "ref_end": "2030-12-18",
-   "settle": 95.62,
-   "implied_rate": 4.38,
+   "settle": 95.685,
+   "implied_rate": 4.315,
    "convexity_bp": 5.74,
-   "model_rate": 4.37984,
-   "residual_bp": -0.016,
-   "open_interest": 147794
+   "model_rate": 4.31522,
+   "residual_bp": 0.022,
+   "open_interest": 149198
   },
   {
    "contract": "SR3 DEC 30",
    "product": "SR3",
    "ref_start": "2030-12-18",
    "ref_end": "2031-03-19",
-   "settle": 95.6,
-   "implied_rate": 4.4,
-   "convexity_bp": 6.44,
-   "model_rate": 4.40034,
-   "residual_bp": 0.034,
-   "open_interest": 118354
+   "settle": 95.66,
+   "implied_rate": 4.34,
+   "convexity_bp": 6.43,
+   "model_rate": 4.33994,
+   "residual_bp": -0.006,
+   "open_interest": 119829
   },
   {
    "contract": "SR3 MAR 31",
    "product": "SR3",
    "ref_start": "2031-03-19",
    "ref_end": "2031-06-18",
-   "settle": 95.57,
-   "implied_rate": 4.43,
-   "convexity_bp": 7.16,
-   "model_rate": 4.4295,
-   "residual_bp": -0.05,
-   "open_interest": 85655
+   "settle": 95.63,
+   "implied_rate": 4.37,
+   "convexity_bp": 7.15,
+   "model_rate": 4.36985,
+   "residual_bp": -0.015,
+   "open_interest": 85718
   },
   {
    "contract": "SR3 JUN 31",
    "product": "SR3",
    "ref_start": "2031-06-18",
    "ref_end": "2031-09-17",
-   "settle": 95.54,
-   "implied_rate": 4.46,
-   "convexity_bp": 7.92,
-   "model_rate": 4.4606,
-   "residual_bp": 0.06,
-   "open_interest": 72204
+   "settle": 95.6,
+   "implied_rate": 4.4,
+   "convexity_bp": 7.91,
+   "model_rate": 4.40021,
+   "residual_bp": 0.021,
+   "open_interest": 72971
   },
   {
    "contract": "SR3 SEP 31",
    "product": "SR3",
    "ref_start": "2031-09-17",
    "ref_end": "2031-12-17",
-   "settle": 95.5,
-   "implied_rate": 4.5,
-   "convexity_bp": 8.71,
-   "model_rate": 4.4995,
-   "residual_bp": -0.05,
-   "open_interest": 42869
+   "settle": 95.565,
+   "implied_rate": 4.435,
+   "convexity_bp": 8.7,
+   "model_rate": 4.43487,
+   "residual_bp": -0.013,
+   "open_interest": 43550
   },
   {
    "contract": "SR3 DEC 31",
    "product": "SR3",
    "ref_start": "2031-12-17",
    "ref_end": "2032-03-17",
-   "settle": 95.465,
-   "implied_rate": 4.535,
-   "convexity_bp": 9.53,
-   "model_rate": 4.53522,
-   "residual_bp": 0.022,
-   "open_interest": 9416
+   "settle": 95.53,
+   "implied_rate": 4.47,
+   "convexity_bp": 9.52,
+   "model_rate": 4.47004,
+   "residual_bp": 0.004,
+   "open_interest": 9315
   },
   {
    "contract": "SR3 MAR 32",
    "product": "SR3",
    "ref_start": "2032-03-17",
    "ref_end": "2032-06-16",
-   "settle": 95.43,
-   "implied_rate": 4.57,
-   "convexity_bp": 10.39,
-   "model_rate": 4.56991,
-   "residual_bp": -0.009,
-   "open_interest": 4823
+   "settle": 95.495,
+   "implied_rate": 4.505,
+   "convexity_bp": 10.38,
+   "model_rate": 4.50496,
+   "residual_bp": -0.004,
+   "open_interest": 4822
   },
   {
    "contract": "SR3 JUN 32",
    "product": "SR3",
    "ref_start": "2032-06-16",
    "ref_end": "2032-09-15",
-   "settle": 95.395,
-   "implied_rate": 4.605,
-   "convexity_bp": 11.27,
-   "model_rate": 4.60514,
-   "residual_bp": 0.014,
-   "open_interest": 1578
+   "settle": 95.46,
+   "implied_rate": 4.54,
+   "convexity_bp": 11.26,
+   "model_rate": 4.54013,
+   "residual_bp": 0.013,
+   "open_interest": 1912
   },
   {
    "contract": "SR3 SEP 32",
    "product": "SR3",
    "ref_start": "2032-09-15",
    "ref_end": "2032-12-15",
-   "settle": 95.36,
-   "implied_rate": 4.64,
-   "convexity_bp": 12.18,
-   "model_rate": 4.63978,
+   "settle": 95.425,
+   "implied_rate": 4.575,
+   "convexity_bp": 12.17,
+   "model_rate": 4.57478,
    "residual_bp": -0.022,
-   "open_interest": 849
+   "open_interest": 1117
   },
   {
    "contract": "SR3 DEC 32",
    "product": "SR3",
    "ref_start": "2032-12-15",
    "ref_end": "2033-03-16",
-   "settle": 95.33,
-   "implied_rate": 4.67,
-   "convexity_bp": 13.12,
-   "model_rate": 4.67022,
-   "residual_bp": 0.022,
+   "settle": 95.395,
+   "implied_rate": 4.605,
+   "convexity_bp": 13.11,
+   "model_rate": 4.60521,
+   "residual_bp": 0.021,
    "open_interest": 165
   },
   {
@@ -589,10 +589,10 @@
    "product": "SR3",
    "ref_start": "2033-03-16",
    "ref_end": "2033-06-15",
-   "settle": 95.3,
-   "implied_rate": 4.7,
-   "convexity_bp": 14.08,
-   "model_rate": 4.69977,
+   "settle": 95.365,
+   "implied_rate": 4.635,
+   "convexity_bp": 14.07,
+   "model_rate": 4.63477,
    "residual_bp": -0.023,
    "open_interest": 36
   },
@@ -601,10 +601,10 @@
    "product": "SR3",
    "ref_start": "2033-06-15",
    "ref_end": "2033-09-21",
-   "settle": 95.27,
-   "implied_rate": 4.73,
-   "convexity_bp": 15.12,
-   "model_rate": 4.73017,
+   "settle": 95.335,
+   "implied_rate": 4.665,
+   "convexity_bp": 15.11,
+   "model_rate": 4.66517,
    "residual_bp": 0.017,
    "open_interest": 3
   },
@@ -613,10 +613,10 @@
    "product": "SR3",
    "ref_start": "2033-09-21",
    "ref_end": "2033-12-21",
-   "settle": 95.24,
-   "implied_rate": 4.76,
-   "convexity_bp": 16.18,
-   "model_rate": 4.76029,
+   "settle": 95.305,
+   "implied_rate": 4.695,
+   "convexity_bp": 16.17,
+   "model_rate": 4.69529,
    "residual_bp": 0.029,
    "open_interest": 0
   },
@@ -625,11 +625,11 @@
    "product": "SR3",
    "ref_start": "2033-12-21",
    "ref_end": "2034-03-15",
-   "settle": 95.215,
-   "implied_rate": 4.785,
-   "convexity_bp": 17.19,
-   "model_rate": 4.78388,
-   "residual_bp": -0.112,
+   "settle": 95.28,
+   "implied_rate": 4.72,
+   "convexity_bp": 17.17,
+   "model_rate": 4.7189,
+   "residual_bp": -0.11,
    "open_interest": 11
   },
   {
@@ -637,11 +637,11 @@
    "product": "SR3",
    "ref_start": "2034-03-15",
    "ref_end": "2034-06-21",
-   "settle": 95.195,
-   "implied_rate": 4.805,
-   "convexity_bp": 18.25,
-   "model_rate": 4.80688,
-   "residual_bp": 0.188,
+   "settle": 95.26,
+   "implied_rate": 4.74,
+   "convexity_bp": 18.24,
+   "model_rate": 4.74186,
+   "residual_bp": 0.186,
    "open_interest": 0
   },
   {
@@ -649,11 +649,11 @@
    "product": "SR3",
    "ref_start": "2034-06-21",
    "ref_end": "2034-09-20",
-   "settle": 95.165,
-   "implied_rate": 4.835,
-   "convexity_bp": 19.39,
-   "model_rate": 4.83235,
-   "residual_bp": -0.265,
+   "settle": 95.23,
+   "implied_rate": 4.77,
+   "convexity_bp": 19.38,
+   "model_rate": 4.76736,
+   "residual_bp": -0.264,
    "open_interest": 0
   },
   {
@@ -661,11 +661,11 @@
    "product": "SR3",
    "ref_start": "2034-09-20",
    "ref_end": "2034-12-20",
-   "settle": 95.155,
-   "implied_rate": 4.845,
-   "convexity_bp": 20.51,
-   "model_rate": 4.84831,
-   "residual_bp": 0.331,
+   "settle": 95.22,
+   "implied_rate": 4.78,
+   "convexity_bp": 20.5,
+   "model_rate": 4.7833,
+   "residual_bp": 0.33,
    "open_interest": 0
   },
   {
@@ -673,10 +673,10 @@
    "product": "SR3",
    "ref_start": "2034-12-20",
    "ref_end": "2035-03-21",
-   "settle": 95.11,
-   "implied_rate": 4.89,
-   "convexity_bp": 21.65,
-   "model_rate": 4.88687,
+   "settle": 95.175,
+   "implied_rate": 4.825,
+   "convexity_bp": 21.64,
+   "model_rate": 4.82187,
    "residual_bp": -0.313,
    "open_interest": 0
   },
@@ -685,10 +685,10 @@
    "product": "SR3",
    "ref_start": "2035-03-21",
    "ref_end": "2035-06-20",
-   "settle": 95.1,
-   "implied_rate": 4.9,
-   "convexity_bp": 22.82,
-   "model_rate": 4.90218,
+   "settle": 95.165,
+   "implied_rate": 4.835,
+   "convexity_bp": 22.8,
+   "model_rate": 4.83718,
    "residual_bp": 0.218,
    "open_interest": 0
   },
@@ -697,10 +697,10 @@
    "product": "SR3",
    "ref_start": "2035-06-20",
    "ref_end": "2035-09-19",
-   "settle": 95.075,
-   "implied_rate": 4.925,
-   "convexity_bp": 24.0,
-   "model_rate": 4.92342,
+   "settle": 95.14,
+   "implied_rate": 4.86,
+   "convexity_bp": 23.99,
+   "model_rate": 4.85842,
    "residual_bp": -0.158,
    "open_interest": 0
   },
@@ -709,10 +709,10 @@
    "product": "SR3",
    "ref_start": "2035-09-19",
    "ref_end": "2035-12-19",
-   "settle": 95.05,
-   "implied_rate": 4.95,
-   "convexity_bp": 25.21,
-   "model_rate": 4.95187,
+   "settle": 95.115,
+   "implied_rate": 4.885,
+   "convexity_bp": 25.19,
+   "model_rate": 4.88687,
    "residual_bp": 0.187,
    "open_interest": 0
   },
@@ -721,10 +721,10 @@
    "product": "SR3",
    "ref_start": "2035-12-19",
    "ref_end": "2036-03-19",
-   "settle": 95.005,
-   "implied_rate": 4.995,
-   "convexity_bp": 26.43,
-   "model_rate": 4.99333,
+   "settle": 95.07,
+   "implied_rate": 4.93,
+   "convexity_bp": 26.42,
+   "model_rate": 4.92833,
    "residual_bp": -0.167,
    "open_interest": 0
   },
@@ -733,687 +733,683 @@
    "product": "SR3",
    "ref_start": "2036-03-19",
    "ref_end": "2036-06-18",
-   "settle": 94.995,
-   "implied_rate": 5.005,
-   "convexity_bp": 27.68,
-   "model_rate": 5.00558,
+   "settle": 95.06,
+   "implied_rate": 4.94,
+   "convexity_bp": 27.67,
+   "model_rate": 4.94058,
    "residual_bp": 0.058,
    "open_interest": 0
   }
  ],
  "periods": [
   {
-   "start": "2026-11-05",
+   "start": "2026-11-06",
    "end": "2026-12-10",
    "type": "fomc",
-   "sofr": 3.89213
+   "sofr": 3.88966
   },
   {
    "start": "2026-12-10",
    "end": "2027-01-28",
    "type": "fomc",
-   "sofr": 4.11117
+   "sofr": 4.07455
   },
   {
    "start": "2027-01-28",
    "end": "2027-03-18",
    "type": "fomc",
-   "sofr": 4.17201
+   "sofr": 4.10825
   },
   {
    "start": "2027-03-18",
    "end": "2027-04-29",
    "type": "fomc",
-   "sofr": 4.30453
+   "sofr": 4.19723
   },
   {
    "start": "2027-04-29",
    "end": "2027-06-10",
    "type": "fomc",
-   "sofr": 4.35971
+   "sofr": 4.23033
   },
   {
    "start": "2027-06-10",
    "end": "2027-07-29",
    "type": "fomc",
-   "sofr": 4.44214
+   "sofr": 4.29964
   },
   {
    "start": "2027-07-29",
    "end": "2027-09-16",
    "type": "fomc",
-   "sofr": 4.45751
+   "sofr": 4.31111
   },
   {
    "start": "2027-09-16",
    "end": "2027-10-28",
    "type": "fomc",
-   "sofr": 4.48372
+   "sofr": 4.33852
   },
   {
    "start": "2027-10-28",
    "end": "2027-12-09",
    "type": "fomc",
-   "sofr": 4.48416
+   "sofr": 4.33673
   },
   {
    "start": "2027-12-09",
    "end": "2028-01-27",
    "type": "fomc",
-   "sofr": 4.46711
+   "sofr": 4.32561
   },
   {
    "start": "2028-01-27",
    "end": "2028-03-01",
    "type": "fomc",
-   "sofr": 4.44624
+   "sofr": 4.30957
   },
   {
    "start": "2028-03-01",
    "end": "2028-04-01",
    "type": "monthly",
-   "sofr": 4.41001
+   "sofr": 4.31072
   },
   {
    "start": "2028-04-01",
    "end": "2028-05-01",
    "type": "monthly",
-   "sofr": 4.40768
+   "sofr": 4.30105
   },
   {
    "start": "2028-05-01",
    "end": "2028-06-01",
    "type": "monthly",
-   "sofr": 4.40315
+   "sofr": 4.29292
   },
   {
    "start": "2028-06-01",
    "end": "2028-07-01",
    "type": "monthly",
-   "sofr": 4.39551
+   "sofr": 4.28698
   },
   {
    "start": "2028-07-01",
    "end": "2028-08-01",
    "type": "monthly",
-   "sofr": 4.38584
+   "sofr": 4.28265
   },
   {
    "start": "2028-08-01",
    "end": "2028-09-01",
    "type": "monthly",
-   "sofr": 4.37611
+   "sofr": 4.27879
   },
   {
    "start": "2028-09-01",
    "end": "2028-10-01",
    "type": "monthly",
-   "sofr": 4.36745
+   "sofr": 4.2747
   },
   {
    "start": "2028-10-01",
    "end": "2028-11-01",
    "type": "monthly",
-   "sofr": 4.36003
+   "sofr": 4.27016
   },
   {
    "start": "2028-11-01",
    "end": "2028-12-01",
    "type": "monthly",
-   "sofr": 4.35345
+   "sofr": 4.26529
   },
   {
    "start": "2028-12-01",
    "end": "2029-01-01",
    "type": "monthly",
-   "sofr": 4.34731
+   "sofr": 4.26036
   },
   {
    "start": "2029-01-01",
    "end": "2029-02-01",
    "type": "monthly",
-   "sofr": 4.34124
+   "sofr": 4.25577
   },
   {
    "start": "2029-02-01",
    "end": "2029-03-01",
    "type": "monthly",
-   "sofr": 4.33496
+   "sofr": 4.25186
   },
   {
    "start": "2029-03-01",
    "end": "2029-04-01",
    "type": "monthly",
-   "sofr": 4.32848
+   "sofr": 4.24867
   },
   {
    "start": "2029-04-01",
    "end": "2029-05-01",
    "type": "monthly",
-   "sofr": 4.32206
+   "sofr": 4.24592
   },
   {
    "start": "2029-05-01",
    "end": "2029-06-01",
    "type": "monthly",
-   "sofr": 4.31607
+   "sofr": 4.2432
   },
   {
    "start": "2029-06-01",
    "end": "2029-07-01",
    "type": "monthly",
-   "sofr": 4.31071
+   "sofr": 4.24019
   },
   {
    "start": "2029-07-01",
    "end": "2029-08-01",
    "type": "monthly",
-   "sofr": 4.306
+   "sofr": 4.2367
   },
   {
    "start": "2029-08-01",
    "end": "2029-09-01",
    "type": "monthly",
-   "sofr": 4.30187
+   "sofr": 4.23278
   },
   {
    "start": "2029-09-01",
    "end": "2029-10-01",
    "type": "monthly",
-   "sofr": 4.29827
+   "sofr": 4.22881
   },
   {
    "start": "2029-10-01",
    "end": "2029-11-01",
    "type": "monthly",
-   "sofr": 4.29517
+   "sofr": 4.2256
   },
   {
    "start": "2029-11-01",
    "end": "2029-12-01",
    "type": "monthly",
-   "sofr": 4.29256
+   "sofr": 4.22385
   },
   {
    "start": "2029-12-01",
    "end": "2030-01-01",
    "type": "monthly",
-   "sofr": 4.29046
+   "sofr": 4.22352
   },
   {
    "start": "2030-01-01",
    "end": "2030-02-01",
    "type": "monthly",
-   "sofr": 4.28885
+   "sofr": 4.22384
   },
   {
    "start": "2030-02-01",
    "end": "2030-03-01",
    "type": "monthly",
-   "sofr": 4.28777
+   "sofr": 4.22396
   },
   {
    "start": "2030-03-01",
    "end": "2030-04-01",
    "type": "monthly",
-   "sofr": 4.2872
+   "sofr": 4.22364
   },
   {
    "start": "2030-04-01",
    "end": "2030-05-01",
    "type": "monthly",
-   "sofr": 4.28713
+   "sofr": 4.22324
   },
   {
    "start": "2030-05-01",
    "end": "2030-06-01",
    "type": "monthly",
-   "sofr": 4.28757
+   "sofr": 4.22337
   },
   {
    "start": "2030-06-01",
    "end": "2030-07-01",
    "type": "monthly",
-   "sofr": 4.28852
+   "sofr": 4.22426
   },
   {
    "start": "2030-07-01",
    "end": "2030-08-01",
    "type": "monthly",
-   "sofr": 4.29002
+   "sofr": 4.22572
   },
   {
    "start": "2030-08-01",
    "end": "2030-09-01",
    "type": "monthly",
-   "sofr": 4.29207
+   "sofr": 4.22752
   },
   {
    "start": "2030-09-01",
    "end": "2030-10-01",
    "type": "monthly",
-   "sofr": 4.29463
+   "sofr": 4.22974
   },
   {
    "start": "2030-10-01",
    "end": "2030-11-01",
    "type": "monthly",
-   "sofr": 4.29755
+   "sofr": 4.2328
   },
   {
    "start": "2030-11-01",
    "end": "2030-12-01",
    "type": "monthly",
-   "sofr": 4.3008
+   "sofr": 4.23714
   },
   {
    "start": "2030-12-01",
    "end": "2031-01-01",
    "type": "monthly",
-   "sofr": 4.3046
+   "sofr": 4.24282
   },
   {
    "start": "2031-01-01",
    "end": "2031-02-01",
    "type": "monthly",
-   "sofr": 4.30943
+   "sofr": 4.24952
   },
   {
    "start": "2031-02-01",
    "end": "2031-03-01",
    "type": "monthly",
-   "sofr": 4.31564
+   "sofr": 4.25678
   },
   {
    "start": "2031-03-01",
    "end": "2031-04-01",
    "type": "monthly",
-   "sofr": 4.32297
+   "sofr": 4.26424
   },
   {
    "start": "2031-04-01",
    "end": "2031-05-01",
    "type": "monthly",
-   "sofr": 4.33063
+   "sofr": 4.27163
   },
   {
    "start": "2031-05-01",
    "end": "2031-06-01",
    "type": "monthly",
-   "sofr": 4.33788
+   "sofr": 4.27885
   },
   {
    "start": "2031-06-01",
    "end": "2031-07-01",
    "type": "monthly",
-   "sofr": 4.34482
+   "sofr": 4.28602
   },
   {
    "start": "2031-07-01",
    "end": "2031-08-01",
    "type": "monthly",
-   "sofr": 4.3524
+   "sofr": 4.29353
   },
   {
    "start": "2031-08-01",
    "end": "2031-09-01",
    "type": "monthly",
-   "sofr": 4.36161
+   "sofr": 4.30175
   },
   {
    "start": "2031-09-01",
    "end": "2031-10-01",
    "type": "monthly",
-   "sofr": 4.37238
+   "sofr": 4.3107
   },
   {
    "start": "2031-10-01",
    "end": "2031-11-01",
    "type": "monthly",
-   "sofr": 4.38358
+   "sofr": 4.32001
   },
   {
    "start": "2031-11-01",
    "end": "2031-12-01",
    "type": "monthly",
-   "sofr": 4.39396
+   "sofr": 4.32927
   },
   {
    "start": "2031-12-01",
    "end": "2032-01-01",
    "type": "monthly",
-   "sofr": 4.40317
+   "sofr": 4.33829
   },
   {
    "start": "2032-01-01",
    "end": "2032-02-01",
    "type": "monthly",
-   "sofr": 4.41164
+   "sofr": 4.34712
   },
   {
    "start": "2032-02-01",
    "end": "2032-03-01",
    "type": "monthly",
-   "sofr": 4.42003
+   "sofr": 4.35586
   },
   {
    "start": "2032-03-01",
    "end": "2032-04-01",
    "type": "monthly",
-   "sofr": 4.42863
+   "sofr": 4.36458
   },
   {
    "start": "2032-04-01",
    "end": "2032-05-01",
    "type": "monthly",
-   "sofr": 4.43738
+   "sofr": 4.37327
   },
   {
    "start": "2032-05-01",
    "end": "2032-06-01",
    "type": "monthly",
-   "sofr": 4.4461
+   "sofr": 4.3819
   },
   {
    "start": "2032-06-01",
    "end": "2032-07-01",
    "type": "monthly",
-   "sofr": 4.45477
+   "sofr": 4.39054
   },
   {
    "start": "2032-07-01",
    "end": "2032-08-01",
    "type": "monthly",
-   "sofr": 4.4635
+   "sofr": 4.39929
   },
   {
    "start": "2032-08-01",
    "end": "2032-09-01",
    "type": "monthly",
-   "sofr": 4.47239
+   "sofr": 4.40819
   },
   {
    "start": "2032-09-01",
    "end": "2032-10-01",
    "type": "monthly",
-   "sofr": 4.48124
+   "sofr": 4.41706
   },
   {
    "start": "2032-10-01",
    "end": "2032-11-01",
    "type": "monthly",
-   "sofr": 4.48966
+   "sofr": 4.42547
   },
   {
    "start": "2032-11-01",
    "end": "2032-12-01",
    "type": "monthly",
-   "sofr": 4.49731
+   "sofr": 4.43312
   },
   {
    "start": "2032-12-01",
    "end": "2033-01-01",
    "type": "monthly",
-   "sofr": 4.50424
+   "sofr": 4.44006
   },
   {
    "start": "2033-01-01",
    "end": "2033-02-01",
    "type": "monthly",
-   "sofr": 4.51088
+   "sofr": 4.4467
   },
   {
    "start": "2033-02-01",
    "end": "2033-03-01",
    "type": "monthly",
-   "sofr": 4.51758
+   "sofr": 4.4534
   },
   {
    "start": "2033-03-01",
    "end": "2033-04-01",
    "type": "monthly",
-   "sofr": 4.52435
+   "sofr": 4.46016
   },
   {
    "start": "2033-04-01",
    "end": "2033-05-01",
    "type": "monthly",
-   "sofr": 4.53085
+   "sofr": 4.46667
   },
   {
    "start": "2033-05-01",
    "end": "2033-06-01",
    "type": "monthly",
-   "sofr": 4.53679
+   "sofr": 4.47263
   },
   {
    "start": "2033-06-01",
    "end": "2033-07-01",
    "type": "monthly",
-   "sofr": 4.54225
+   "sofr": 4.47812
   },
   {
    "start": "2033-07-01",
    "end": "2033-08-01",
    "type": "monthly",
-   "sofr": 4.54771
+   "sofr": 4.4836
   },
   {
    "start": "2033-08-01",
    "end": "2033-09-01",
    "type": "monthly",
-   "sofr": 4.55368
+   "sofr": 4.48957
   },
   {
    "start": "2033-09-01",
    "end": "2033-10-01",
    "type": "monthly",
-   "sofr": 4.56038
+   "sofr": 4.49627
   },
   {
    "start": "2033-10-01",
    "end": "2033-11-01",
    "type": "monthly",
-   "sofr": 4.56778
+   "sofr": 4.50364
   },
   {
    "start": "2033-11-01",
    "end": "2033-12-01",
    "type": "monthly",
-   "sofr": 4.57546
+   "sofr": 4.51128
   },
   {
    "start": "2033-12-01",
    "end": "2034-01-01",
    "type": "monthly",
-   "sofr": 4.58253
+   "sofr": 4.51832
   },
   {
    "start": "2034-01-01",
    "end": "2034-02-01",
    "type": "monthly",
-   "sofr": 4.5876
+   "sofr": 4.52337
   },
   {
    "start": "2034-02-01",
    "end": "2034-03-01",
    "type": "monthly",
-   "sofr": 4.58984
+   "sofr": 4.52564
   },
   {
    "start": "2034-03-01",
    "end": "2034-04-01",
    "type": "monthly",
-   "sofr": 4.59036
+   "sofr": 4.5262
   },
   {
    "start": "2034-04-01",
    "end": "2034-05-01",
    "type": "monthly",
-   "sofr": 4.59214
+   "sofr": 4.52803
   },
   {
    "start": "2034-05-01",
    "end": "2034-06-01",
    "type": "monthly",
-   "sofr": 4.59728
+   "sofr": 4.53319
   },
   {
    "start": "2034-06-01",
    "end": "2034-07-01",
    "type": "monthly",
-   "sofr": 4.60514
+   "sofr": 4.54104
   },
   {
    "start": "2034-07-01",
    "end": "2034-08-01",
    "type": "monthly",
-   "sofr": 4.6121
+   "sofr": 4.54797
   },
   {
    "start": "2034-08-01",
    "end": "2034-09-01",
    "type": "monthly",
-   "sofr": 4.61437
+   "sofr": 4.55022
   },
   {
    "start": "2034-09-01",
    "end": "2034-10-01",
    "type": "monthly",
-   "sofr": 4.61241
+   "sofr": 4.54825
   },
   {
    "start": "2034-10-01",
    "end": "2034-11-01",
    "type": "monthly",
-   "sofr": 4.61126
+   "sofr": 4.54711
   },
   {
    "start": "2034-11-01",
    "end": "2034-12-01",
    "type": "monthly",
-   "sofr": 4.61655
+   "sofr": 4.55241
   },
   {
    "start": "2034-12-01",
    "end": "2035-01-01",
    "type": "monthly",
-   "sofr": 4.62839
+   "sofr": 4.56426
   },
   {
    "start": "2035-01-01",
    "end": "2035-02-01",
    "type": "monthly",
-   "sofr": 4.64139
+   "sofr": 4.57725
   },
   {
    "start": "2035-02-01",
    "end": "2035-03-01",
    "type": "monthly",
-   "sofr": 4.6489
+   "sofr": 4.58476
   },
   {
    "start": "2035-03-01",
    "end": "2035-04-01",
    "type": "monthly",
-   "sofr": 4.64951
+   "sofr": 4.58537
   },
   {
    "start": "2035-04-01",
    "end": "2035-05-01",
    "type": "monthly",
-   "sofr": 4.64665
+   "sofr": 4.58252
   },
   {
    "start": "2035-05-01",
    "end": "2035-06-01",
    "type": "monthly",
-   "sofr": 4.64581
+   "sofr": 4.58167
   },
   {
    "start": "2035-06-01",
    "end": "2035-07-01",
    "type": "monthly",
-   "sofr": 4.64893
+   "sofr": 4.5848
   },
   {
    "start": "2035-07-01",
    "end": "2035-08-01",
    "type": "monthly",
-   "sofr": 4.65424
+   "sofr": 4.59011
   },
   {
    "start": "2035-08-01",
    "end": "2035-09-01",
    "type": "monthly",
-   "sofr": 4.65871
+   "sofr": 4.59458
   },
   {
    "start": "2035-09-01",
    "end": "2035-10-01",
    "type": "monthly",
-   "sofr": 4.66195
+   "sofr": 4.59782
   },
   {
    "start": "2035-10-01",
    "end": "2035-11-01",
    "type": "monthly",
-   "sofr": 4.66658
+   "sofr": 4.60245
   },
   {
    "start": "2035-11-01",
    "end": "2035-12-01",
    "type": "monthly",
-   "sofr": 4.67528
+   "sofr": 4.61115
   },
   {
    "start": "2035-12-01",
    "end": "2036-01-01",
    "type": "monthly",
-   "sofr": 4.68751
+   "sofr": 4.62338
   },
   {
    "start": "2036-01-01",
    "end": "2036-02-01",
    "type": "monthly",
-   "sofr": 4.69939
+   "sofr": 4.63527
   },
   {
    "start": "2036-02-01",
    "end": "2036-03-01",
    "type": "monthly",
-   "sofr": 4.70671
+   "sofr": 4.64259
   },
   {
    "start": "2036-03-01",
    "end": "2036-04-01",
    "type": "monthly",
-   "sofr": 4.708
+   "sofr": 4.64389
   },
   {
    "start": "2036-04-01",
    "end": "2036-05-01",
    "type": "monthly",
-   "sofr": 4.70473
+   "sofr": 4.64061
   },
   {
    "start": "2036-05-01",
    "end": "2036-06-01",
    "type": "monthly",
-   "sofr": 4.69939
+   "sofr": 4.63527
   },
   {
    "start": "2036-06-01",
    "end": "2036-06-18",
    "type": "monthly",
-   "sofr": 4.69354
+   "sofr": 4.62942
   }
  ],
  "sofr_fixings": [
-  [
-   "2026-06-08",
-   3.63
-  ],
   [
    "2026-06-09",
    3.6
@@ -1825,6 +1821,10 @@
   [
    "2026-11-04",
    3.94
+  ],
+  [
+   "2026-11-05",
+   3.92
   ]
  ]
 }
