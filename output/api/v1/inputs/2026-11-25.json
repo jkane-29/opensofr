@@ -2,9 +2,9 @@
  "as_of": "2026-11-25",
  "stats": {
   "instruments": 61,
-  "max_abs_residual_bp": 0.743,
-  "rms_residual_bp": 0.241,
-  "max_abs_residual_liquid_bp": 0.743,
+  "max_abs_residual_bp": 0.655,
+  "rms_residual_bp": 0.227,
+  "max_abs_residual_liquid_bp": 0.655,
   "last_contract_end": "2036-06-18"
  },
  "instruments": [
@@ -16,8 +16,8 @@
    "settle": 96.0675,
    "implied_rate": 3.9325,
    "convexity_bp": 0.0,
-   "model_rate": 3.93483,
-   "residual_bp": 0.233,
+   "model_rate": 3.93431,
+   "residual_bp": 0.181,
    "open_interest": 1274163
   },
   {
@@ -28,8 +28,8 @@
    "settle": 95.95,
    "implied_rate": 4.05,
    "convexity_bp": 0.0,
-   "model_rate": 4.04796,
-   "residual_bp": -0.204,
+   "model_rate": 4.04794,
+   "residual_bp": -0.206,
    "open_interest": 8935
   },
   {
@@ -40,8 +40,8 @@
    "settle": 96.0775,
    "implied_rate": 3.9225,
    "convexity_bp": 0.0,
-   "model_rate": 3.91507,
-   "residual_bp": -0.743,
+   "model_rate": 3.91595,
+   "residual_bp": -0.655,
    "open_interest": 382162
   },
   {
@@ -52,8 +52,8 @@
    "settle": 95.8425,
    "implied_rate": 4.1575,
    "convexity_bp": 0.0,
-   "model_rate": 4.15744,
-   "residual_bp": -0.006,
+   "model_rate": 4.15747,
+   "residual_bp": -0.003,
    "open_interest": 2408
   },
   {
@@ -64,8 +64,8 @@
    "settle": 95.915,
    "implied_rate": 4.085,
    "convexity_bp": 0.0,
-   "model_rate": 4.09091,
-   "residual_bp": 0.591,
+   "model_rate": 4.0892,
+   "residual_bp": 0.42,
    "open_interest": 359087
   },
   {
@@ -76,8 +76,8 @@
    "settle": 95.735,
    "implied_rate": 4.265,
    "convexity_bp": 0.01,
-   "model_rate": 4.26429,
-   "residual_bp": -0.071,
+   "model_rate": 4.26477,
+   "residual_bp": -0.023,
    "open_interest": 1694329
   },
   {
@@ -88,8 +88,8 @@
    "settle": 95.815,
    "implied_rate": 4.185,
    "convexity_bp": 0.01,
-   "model_rate": 4.18114,
-   "residual_bp": -0.386,
+   "model_rate": 4.18223,
+   "residual_bp": -0.277,
    "open_interest": 246390
   },
   {
@@ -100,8 +100,8 @@
    "settle": 95.625,
    "implied_rate": 4.375,
    "convexity_bp": 0.02,
-   "model_rate": 4.3731,
-   "residual_bp": -0.19,
+   "model_rate": 4.37309,
+   "residual_bp": -0.191,
    "open_interest": 3406
   },
   {
@@ -112,8 +112,8 @@
    "settle": 95.69,
    "implied_rate": 4.31,
    "convexity_bp": 0.02,
-   "model_rate": 4.31431,
-   "residual_bp": 0.431,
+   "model_rate": 4.31405,
+   "residual_bp": 0.405,
    "open_interest": 220107
   },
   {
@@ -124,8 +124,8 @@
    "settle": 95.56,
    "implied_rate": 4.44,
    "convexity_bp": 0.04,
-   "model_rate": 4.43664,
-   "residual_bp": -0.336,
+   "model_rate": 4.43658,
+   "residual_bp": -0.342,
    "open_interest": 654
   },
   {
@@ -136,8 +136,8 @@
    "settle": 95.625,
    "implied_rate": 4.375,
    "convexity_bp": 0.04,
-   "model_rate": 4.37334,
-   "residual_bp": -0.166,
+   "model_rate": 4.37323,
+   "residual_bp": -0.177,
    "open_interest": 105629
   },
   {
@@ -148,8 +148,8 @@
    "settle": 95.505,
    "implied_rate": 4.495,
    "convexity_bp": 0.07,
-   "model_rate": 4.49524,
-   "residual_bp": 0.024,
+   "model_rate": 4.49527,
+   "residual_bp": 0.027,
    "open_interest": 1375232
   },
   {
@@ -160,8 +160,8 @@
    "settle": 95.555,
    "implied_rate": 4.445,
    "convexity_bp": 0.06,
-   "model_rate": 4.44781,
-   "residual_bp": 0.281,
+   "model_rate": 4.44788,
+   "residual_bp": 0.288,
    "open_interest": 99673
   },
   {
@@ -743,28 +743,28 @@
  ],
  "periods": [
   {
-   "start": "2026-11-25",
+   "start": "2026-11-27",
    "end": "2026-12-10",
    "type": "fomc",
-   "sofr": 3.91869
+   "sofr": 3.90966
   },
   {
    "start": "2026-12-10",
    "end": "2027-01-28",
    "type": "fomc",
-   "sofr": 4.16136
+   "sofr": 4.16264
   },
   {
    "start": "2027-01-28",
    "end": "2027-03-18",
    "type": "fomc",
-   "sofr": 4.31412
+   "sofr": 4.31385
   },
   {
    "start": "2027-03-18",
    "end": "2027-04-29",
    "type": "fomc",
-   "sofr": 4.44445
+   "sofr": 4.44452
   },
   {
    "start": "2027-04-29",
@@ -1411,10 +1411,6 @@
  ],
  "sofr_fixings": [
   [
-   "2026-06-29",
-   3.62
-  ],
-  [
    "2026-06-30",
    3.68
   ],
@@ -1821,6 +1817,10 @@
   [
    "2026-11-24",
    3.94
+  ],
+  [
+   "2026-11-25",
+   3.95
   ]
  ]
 }
